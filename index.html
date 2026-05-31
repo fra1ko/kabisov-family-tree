@@ -379,18 +379,30 @@ body{
     }
 }
 
-    @media (max-width: 950px) and (orientation: landscape){
+@media (max-width: 950px) and (orientation: landscape){
 
     #headerCenter{
+        top:10px;
+        left:50%;
+        transform:translateX(-50%);
+
         width:320px;
         padding:12px 16px;
+
+        z-index:999;
     }
 
     #headerCenter h1{
         font-size:20px;
     }
 
+    #headerCenter p{
+        margin-top:2px;
+        font-size:12px;
+    }
+
     .stats{
+        margin-top:8px;
         gap:8px;
     }
 
@@ -403,12 +415,28 @@ body{
         font-size:18px;
     }
 
+    .statText{
+        font-size:11px;
+    }
+
+    #searchPanel{
+        top:10px;
+        left:10px;
+    }
+
     #searchInput{
-        width:160px;
+        width:170px;
     }
 
     #events{
+        top:10px;
+        right:10px;
+        bottom:auto;
         width:170px;
+    }
+
+    .stats{
+        display:none;
     }
 }
 
