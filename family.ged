@@ -1,0 +1,4397 @@
+﻿0 HEAD
+1 GEDC
+2 VERS 5.5
+2 FORM LINEAGE-LINKED
+1 SOUR ANCESTRIS
+2 VERS 13.0.13871
+2 NAME Ancestris
+2 CORP Команда Ancestris
+3 ADDR https://www.ancestris.org
+1 DEST ANY
+1 DATE 30 MAY 2026
+2 TIME 14:06:34
+1 SUBM @SUB1@
+1 FILE Дерево Кабисовых_главное.ged
+1 CHAR UTF-8
+1 PLAC
+2 FORM Деревня, Город, Код_города, Район, Область, Страна
+1 NOTE Этот файл был изменен модулем Ancestris Generic Import.
+0 @SUB1@ SUBM
+1 NAME Kabisov Family
+0 @I1@ INDI
+1 NAME Гуыда /КАБИСОВ/
+2 GIVN Гуыда
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMS @F1@
+1 TITL прапрапрадед, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I2@ INDI
+1 NAME Вано /КАБИСОВ/
+2 GIVN Вано
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F1@
+1 FAMS @F2@
+1 TITL прапрадед, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I3@ INDI
+1 NAME Андро /КАБИСОВ/
+2 GIVN Андро
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F1@
+1 FAMS @F5@
+1 TITL прапрадед, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I4@ INDI
+1 NAME Майор /КАБИСОВ/
+2 GIVN Майор
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F1@
+1 FAMS @F40@
+1 TITL прапрадедушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I_D1@ INDI
+1 NAME ? /КАБИСОВА/
+2 GIVN ?
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F1@
+1 TITL прапрабабушка,
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I_D2@ INDI
+1 NAME ? /КАБИСОВА/
+2 GIVN ?
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F1@
+1 TITL прапрабабушка,
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I5@ INDI
+1 NAME Миха /КАБИСОВ/
+2 GIVN Миха
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F2@
+1 FAMS @F4@
+1 TITL прадедушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I6@ INDI
+1 NAME Тути /КАБИСОВ/
+2 GIVN Тути
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F2@
+1 TITL прадедушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I7@ INDI
+1 NAME Петре /КАБИСОВ/
+2 GIVN Петре
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F2@
+1 FAMS @F3@
+1 TITL прадедушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I8@ INDI
+1 NAME Уасо /КАБИСОВ/
+2 GIVN Уасо
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F4@
+1 TITL дедушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I9@ INDI
+1 NAME Тебро /КАБИСОВ/
+2 GIVN Тебро
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F4@
+1 TITL дедушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I10@ INDI
+1 NAME Гаврик /КАБИСОВ/
+2 GIVN Гаврик
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F4@
+1 TITL дедушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I11@ INDI
+1 NAME Граф /КАБИСОВ/
+2 GIVN Граф
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F3@
+1 TITL дедушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I12@ INDI
+1 NAME Пъалу /КАБИСОВ/
+2 GIVN Пъалу
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F3@
+1 TITL дедушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I13@ INDI
+1 NAME Залина /КАБИСОВА/
+2 GIVN Залина
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F3@
+1 TITL бабушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I14@ INDI
+1 NAME Вера /КАБИСОВА/
+2 GIVN Вера
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F3@
+1 TITL бабушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I15@ INDI
+1 NAME ? /КАБИСОВ/
+2 GIVN ?
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F5@
+1 TITL прадедушка,
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I16@ INDI
+1 NAME ? /КАБИСОВА/
+2 GIVN ?
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F5@
+1 TITL прабабушка,
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I17@ INDI
+1 NAME Гитье /КАБИСОВ/
+2 GIVN Гитье
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F5@
+1 FAMS @F27@
+1 TITL прадедушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I18@ INDI
+1 NAME ? /КАБИСОВА/
+2 GIVN ?
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F5@
+1 TITL прабабушка,
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 19:23:43
+0 @I19@ INDI
+1 NAME Иос /КАБИСОВ/
+2 GIVN Иос
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F5@
+1 FAMS @F6@
+1 TITL прадедушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I20@ INDI
+1 NAME Цацка /ТОТРОВА/
+2 GIVN Цацка
+2 SURN ТОТРОВА
+1 SEX F
+1 FAMS @F6@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I21@ INDI
+1 NAME Василий /КАБИСОВ/
+2 GIVN Василий
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F6@
+1 FAMS @F7@
+1 TITL дедушка
+2 NICK Ахсар
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I22@ INDI
+1 NAME Солтан /КАБИСОВ/
+2 GIVN Солтан
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F6@
+1 FAMS @F12@
+1 TITL дедушка
+2 NICK Тасолтан
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I23@ INDI
+1 NAME Нарик /КАБИСОВ/
+2 GIVN Нарик
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F6@
+1 FAMS @F13@
+1 TITL дедушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I24@ INDI
+1 NAME Гриша /КАБИСОВ/
+2 GIVN Гриша
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F6@
+1 FAMS @F14@
+1 TITL дедушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I25@ INDI
+1 NAME Фаризат /КАБИСОВА/
+2 GIVN Фаризат
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F6@
+1 FAMS @F17@
+1 TITL бабушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I26@ INDI
+1 NAME Рая /КАБИСОВА/
+2 GIVN Рая
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F6@
+1 FAMS @F24@
+1 TITL бабушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I27@ INDI
+1 NAME Венера /КАБИСОВА/
+2 GIVN Венера
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F6@
+1 TITL бабушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I28@ INDI
+1 NAME Светлана /ЦИНОЕВА/
+2 GIVN Светлана
+2 SURN ЦИНОЕВА
+1 SEX F
+1 FAMS @F7@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I29@ INDI
+1 NAME Алан /КАБИСОВ/
+2 GIVN Алан
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F7@
+1 FAMS @F8@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I30@ INDI
+1 NAME Виталий /КАБИСОВ/
+2 GIVN Виталий
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F7@
+1 FAMS @F9@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I31@ INDI
+1 NAME Белла /КАБИСОВА/
+2 GIVN Белла
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F7@
+1 FAMS @F10@
+1 FAMS @F11@
+1 TITL тётя,
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 18:42:34
+0 @I32@ INDI
+1 NAME Регина /ХУБАЕВА/
+2 GIVN Регина
+2 SURN ХУБАЕВА
+1 SEX F
+1 FAMS @F8@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I33@ INDI
+1 NAME Георгий /КАБИСОВ/
+2 GIVN Георгий
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F8@
+1 TITL брат, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I34@ INDI
+1 NAME Диана /КАБИСОВА/
+2 GIVN Диана
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F8@
+1 TITL сестра, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I35@ INDI
+1 NAME Владимир /КАБИСОВ/
+2 GIVN Владимир
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F8@
+1 TITL брат, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I36@ INDI
+1 NAME Евгения /КАЛИЕВА/
+2 GIVN Евгения
+2 SURN КАЛИЕВА
+1 SEX F
+1 FAMS @F9@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I37@ INDI
+1 NAME Руслан /КАБИСОВ/
+2 GIVN Руслан
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F9@
+1 TITL брат, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I38@ INDI
+1 NAME Андрей /ХОРОХОРТИН/
+2 GIVN Андрей
+2 SURN ХОРОХОРТИН
+1 SEX M
+1 FAMS @F10@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I39@ INDI
+1 NAME Михаил /ХОРОХОРТИН/
+2 GIVN Михаил
+2 SURN ХОРОХОРТИН
+1 SEX M
+1 FAMC @F10@
+1 TITL брат, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I40@ INDI
+1 NAME Валерий /ТЕДЕЕВ/
+2 GIVN Валерий
+2 SURN ТЕДЕЕВ
+1 SEX M
+1 FAMS @F11@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I41@ INDI
+1 NAME Анжела /ТЕДЕЕВА/
+2 GIVN Анжела
+2 SURN ТЕДЕЕВА
+1 SEX F
+1 FAMC @F11@
+1 TITL сестра, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I42@ INDI
+1 NAME Лидия /ЗАСЕЕВА/
+2 GIVN Лидия
+2 SURN ЗАСЕЕВА
+1 SEX F
+1 FAMS @F12@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I43@ INDI
+1 NAME Людмила /КАБИСОВА/
+2 GIVN Людмила
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F12@
+1 TITL тётя
+2 NICK Мила
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I44@ INDI
+1 NAME Лариса /КАБИСОВА/
+2 GIVN Лариса
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F12@
+1 TITL тётя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I45@ INDI
+1 NAME Олег /КАБИСОВ/
+2 GIVN Олег
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F12@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I46@ INDI
+1 NAME Шура /?/
+2 GIVN Шура
+2 SURN ?
+1 SEX F
+1 FAMS @F13@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:21:15
+0 @I47@ INDI
+1 NAME Игорь /КАБИСОВ/
+2 GIVN Игорь
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F13@
+1 FAMS @F15@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I48@ INDI
+1 NAME ? /КАБИСОВА/
+2 GIVN ?
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F13@
+1 TITL тётя,
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I49@ INDI
+1 NAME Рая /КАЛОЕВА/
+2 GIVN Рая
+2 SURN КАЛОЕВА
+1 SEX F
+1 FAMS @F14@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I50@ INDI
+1 NAME Акадий /КАБИСОВ/
+2 GIVN Акадий
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F14@
+1 FAMS @F16@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I51@ INDI
+1 NAME Алина /КАБИСОВА/
+2 GIVN Алина
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F14@
+1 FAMS @F18@
+1 TITL тётя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I52@ INDI
+1 NAME Нателла /БОРЦИЕВА/
+2 GIVN Нателла
+2 SURN БОРЦИЕВА
+1 SEX F
+1 FAMS @F16@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I53@ INDI
+1 NAME Георгий /КАБИСОВ/
+2 GIVN Георгий
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F16@
+1 TITL брат, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I54@ INDI
+1 NAME Виталий /КАБИСОВ/
+2 GIVN Виталий
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F16@
+1 TITL брат, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I55@ INDI
+1 NAME Ева /КАБИСОВА/
+2 GIVN Ева
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F16@
+1 TITL сестра, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I56@ INDI
+1 NAME ?
+2 GIVN ?
+1 SEX M
+1 FAMS @F18@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I57@ INDI
+1 NAME Сергей /КАБИСОВ/
+2 GIVN Сергей
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F18@
+1 TITL брат, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I58@ INDI
+1 NAME Анна /КАБИСОВА/
+2 GIVN Анна
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F18@
+1 TITL сестра, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I59@ INDI
+1 NAME Залина /КАБИСОВА/
+2 GIVN Залина
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F18@
+1 TITL сестра, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I60@ INDI
+1 NAME Каурбек /БАГАЕВ/
+2 GIVN Каурбек
+2 SURN БАГАЕВ
+1 SEX M
+1 FAMS @F17@
+1 TITL дедушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I61@ INDI
+1 NAME Тарзан /БАГАЕВ/
+2 GIVN Тарзан
+2 SURN БАГАЕВ
+1 SEX M
+1 FAMC @F17@
+1 FAMS @F19@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I62@ INDI
+1 NAME Рима /БАГАЕВА/
+2 GIVN Рима
+2 SURN БАГАЕВА
+1 SEX F
+1 FAMC @F17@
+1 FAMS @F20@
+1 TITL тётя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I63@ INDI
+1 NAME Феликс /БАГАЕВ/
+2 GIVN Феликс
+2 SURN БАГАЕВ
+1 SEX M
+1 FAMC @F17@
+1 FAMS @F21@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I64@ INDI
+1 NAME Славик /БАГАЕВ/
+2 GIVN Славик
+2 SURN БАГАЕВ
+1 SEX M
+1 FAMC @F17@
+1 FAMS @F22@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I65@ INDI
+1 NAME Тома /АБАЕВА/
+2 GIVN Тома
+2 SURN АБАЕВА
+1 SEX F
+1 FAMS @F19@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I66@ INDI
+1 NAME Людмила /БАГАЕВА/
+2 GIVN Людмила
+2 SURN БАГАЕВА
+1 SEX F
+1 FAMC @F19@
+1 TITL сестра, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I67@ INDI
+1 NAME Залина /БАГАЕВА/
+2 GIVN Залина
+2 SURN БАГАЕВА
+1 SEX F
+1 FAMC @F19@
+1 TITL сестра, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I68@ INDI
+1 NAME Марина /БАГАЕВА/
+2 GIVN Марина
+2 SURN БАГАЕВА
+1 SEX F
+1 FAMC @F19@
+1 TITL сестра, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I69@ INDI
+1 NAME Алёна /БАГАЕВА/
+2 GIVN Алёна
+2 SURN БАГАЕВА
+1 SEX F
+1 FAMC @F19@
+1 TITL сестра, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I70@ INDI
+1 NAME Николай /МЕДОЕВ/
+2 GIVN Николай
+2 SURN МЕДОЕВ
+1 SEX M
+1 FAMS @F20@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I71@ INDI
+1 NAME Алан /МЕДОЕВ/
+2 GIVN Алан
+2 SURN МЕДОЕВ
+1 SEX M
+1 FAMC @F20@
+1 TITL брат, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I72@ INDI
+1 NAME Роланд /МЕДОЕВ/
+2 GIVN Роланд
+2 SURN МЕДОЕВ
+1 SEX M
+1 FAMC @F20@
+1 TITL брат, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I73@ INDI
+1 NAME Зоя /КАЛОЕВА/
+2 GIVN Зоя
+2 SURN КАЛОЕВА
+1 SEX F
+1 FAMS @F21@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I74@ INDI
+1 NAME Сослан /БАГАЕВ/
+2 GIVN Сослан
+2 SURN БАГАЕВ
+1 SEX M
+1 FAMC @F21@
+1 FAMS @F23@
+1 TITL брат, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I75@ INDI
+1 NAME Эльбрус /БАГАЕВ/
+2 GIVN Эльбрус
+2 SURN БАГАЕВ
+1 SEX M
+1 FAMC @F21@
+1 FAMS @F25@
+1 TITL брат, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I76@ INDI
+1 NAME Светлана /КУТАРОВА/
+2 GIVN Светлана
+2 SURN КУТАРОВА
+1 SEX F
+1 FAMS @F22@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I77@ INDI
+1 NAME Алина /БАГАЕВА/
+2 GIVN Алина
+2 SURN БАГАЕВА
+1 SEX F
+1 FAMC @F22@
+1 TITL сестра, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I78@ INDI
+1 NAME Балла /БАГАЕВА/
+2 GIVN Балла
+2 SURN БАГАЕВА
+1 SEX F
+1 FAMC @F22@
+1 TITL сестра, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I79@ INDI
+1 NAME Дзерасса /БАГАЕВА/
+2 GIVN Дзерасса
+2 SURN БАГАЕВА
+1 SEX F
+1 FAMC @F22@
+1 TITL сестра, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I80@ INDI
+1 NAME Марина /БЕКОЕВА/
+2 GIVN Марина
+2 SURN БЕКОЕВА
+1 SEX F
+1 FAMS @F23@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I81@ INDI
+1 NAME Батраз /БАГАЕВ/
+2 GIVN Батраз
+2 SURN БАГАЕВ
+1 SEX M
+1 FAMC @F23@
+1 TITL племянник, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I82@ INDI
+1 NAME Кристина /БАГАЕВА/
+2 GIVN Кристина
+2 SURN БАГАЕВА
+1 SEX F
+1 FAMC @F23@
+1 TITL племянница, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I83@ INDI
+1 NAME Марина /САУТИЕВА/
+2 GIVN Марина
+2 SURN САУТИЕВА
+1 SEX F
+1 FAMS @F25@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I84@ INDI
+1 NAME Зарина /БАГАЕВА/
+2 GIVN Зарина
+2 SURN БАГАЕВА
+1 SEX F
+1 FAMC @F25@
+1 TITL племянница, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I85@ INDI
+1 NAME Фатима /БАГАЕВА/
+2 GIVN Фатима
+2 SURN БАГАЕВА
+1 SEX F
+1 FAMC @F25@
+1 TITL племянница, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I86@ INDI
+1 NAME Пётр /БАЗАЕВ/
+2 GIVN Пётр
+2 SURN БАЗАЕВ
+1 SEX M
+1 FAMS @F24@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 19:25:43
+0 @I87@ INDI
+1 NAME Геннадий /БАЗАЕВ/
+2 GIVN Геннадий
+2 SURN БАЗАЕВ
+1 SEX M
+1 FAMC @F24@
+1 FAMS @F26@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I88@ INDI
+1 NAME Юрий /БАЗАЕВ/
+2 GIVN Юрий
+2 SURN БАЗАЕВ
+1 SEX M
+1 FAMC @F24@
+1 FAMS @F28@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I89@ INDI
+1 NAME Белла /?/
+2 GIVN Белла
+2 SURN ?
+1 SEX F
+1 FAMS @F26@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I90@ INDI
+1 NAME Батраз /БАЗАЕВ/
+2 GIVN Батраз
+2 SURN БАЗАЕВ
+1 SEX M
+1 FAMC @F26@
+1 TITL брат, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I91@ INDI
+1 NAME Белла /БЕСОЛОВА/
+2 GIVN Белла
+2 SURN БЕСОЛОВА
+1 SEX F
+1 FAMS @F28@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I92@ INDI
+1 NAME Сослан /БАЗАЕВ/
+2 GIVN Сослан
+2 SURN БАЗАЕВ
+1 SEX M
+1 FAMC @F28@
+1 TITL брат, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I93@ INDI
+1 NAME Анжела /БАЗАЕВА/
+2 GIVN Анжела
+2 SURN БАЗАЕВА
+1 SEX F
+1 FAMC @F28@
+1 TITL сестра, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I94@ INDI
+1 NAME Кеке /БАГАЕВА/
+2 GIVN Кеке
+2 SURN БАГАЕВА
+1 SEX F
+1 FAMS @F27@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I95@ INDI
+1 NAME Соня /КАБИСОВА/
+2 GIVN Соня
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F27@
+1 TITL бабушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I96@ INDI
+1 NAME Алихан /КАБИСОВ/
+2 GIVN Алихан
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F27@
+1 TITL дедушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I97@ INDI
+1 NAME Георгий /КАБИСОВ/
+2 GIVN Георгий
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F27@
+1 FAMS @F29@
+1 TITL дедушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I98@ INDI
+1 NAME Тузар /КАБИСОВ/
+2 GIVN Тузар
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F27@
+1 FAMS @F30@
+1 TITL дедушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I99@ INDI
+1 NAME Лена /КАБИСОВА/
+2 GIVN Лена
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F27@
+1 TITL бабушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I100@ INDI
+1 NAME Зифа /КАБИСОВА/
+2 GIVN Зифа
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F27@
+1 FAMS @F31@
+1 TITL бабушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I101@ INDI
+1 NAME Аза /КАБИСОВА/
+2 GIVN Аза
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F27@
+1 FAMS @F32@
+1 TITL бабушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I102@ INDI
+1 NAME Анна /КАБИСОВА/
+2 GIVN Анна
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F27@
+1 FAMS @F33@
+1 TITL бабушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I103@ INDI
+1 NAME Аби /БИЦОЕВ/
+2 GIVN Аби
+2 SURN БИЦОЕВ
+1 SEX M
+1 FAMS @F33@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I104@ INDI
+1 NAME Зема /БИЗОЕВА/
+2 GIVN Зема
+2 SURN БИЗОЕВА
+1 SEX F
+1 FAMC @F33@
+1 FAMS @F34@
+1 TITL тётя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I105@ INDI
+1 NAME Мадина /БИЦОЕВА/
+2 GIVN Мадина
+2 SURN БИЦОЕВА
+1 SEX F
+1 FAMC @F33@
+1 TITL тётя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I106@ INDI
+1 NAME ? /БИЦОЕВА/
+2 GIVN ?
+2 SURN БИЦОЕВА
+1 SEX F
+1 FAMC @F33@
+1 TITL тётя,
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I107@ INDI
+1 NAME ? /БИЦОЕВА/
+2 GIVN ?
+2 SURN БИЦОЕВА
+1 SEX F
+1 FAMC @F33@
+1 TITL тётя,
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I108@ INDI
+1 NAME Алик /???/
+2 GIVN Алик
+2 SURN ???
+1 SEX M
+1 FAMS @F34@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I109@ INDI
+1 NAME ? /БИЗОЕВ/
+2 GIVN ?
+2 SURN БИЗОЕВ
+1 SEX M
+1 FAMC @F34@
+1 TITL брат,
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I110@ INDI
+1 NAME ? /БИЗОЕВА/
+2 GIVN ?
+2 SURN БИЗОЕВА
+1 SEX F
+1 FAMC @F34@
+1 TITL сестра,
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I111@ INDI
+1 NAME Константин /БУРАЕВ/
+2 GIVN Константин
+2 SURN БУРАЕВ
+1 SEX M
+1 FAMS @F32@
+2 NICK Коста
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I112@ INDI
+1 NAME Одисей /БУРАЕВ/
+2 GIVN Одисей
+2 SURN БУРАЕВ
+1 SEX M
+1 FAMC @F32@
+1 FAMS @F35@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I113@ INDI
+1 NAME ? /БУРАЕВА/
+2 GIVN ?
+2 SURN БУРАЕВА
+1 SEX F
+1 FAMC @F32@
+1 TITL тётя,
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I114@ INDI
+1 NAME Белла /БУРАЕВА/
+2 GIVN Белла
+2 SURN БУРАЕВА
+1 SEX F
+1 FAMC @F32@
+1 TITL тётя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I115@ INDI
+1 NAME Залина /ДЗИЦЦОЕВА/
+2 GIVN Залина
+2 SURN ДЗИЦЦОЕВА
+1 SEX F
+1 FAMS @F35@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I116@ INDI
+1 NAME ? /БУРАЕВ/
+2 GIVN ?
+2 SURN БУРАЕВ
+1 SEX M
+1 FAMC @F35@
+1 TITL брат,
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I117@ INDI
+1 NAME ? /БУРАЕВ/
+2 GIVN ?
+2 SURN БУРАЕВ
+1 SEX M
+1 FAMC @F35@
+1 TITL брат,
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I118@ INDI
+1 NAME ? /ДЗУКАЕВ/
+2 GIVN ?
+2 SURN ДЗУКАЕВ
+1 SEX M
+1 FAMS @F31@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I119@ INDI
+1 NAME ? /ДЗУКАЕВ/
+2 GIVN ?
+2 SURN ДЗУКАЕВ
+1 SEX M
+1 FAMC @F31@
+1 TITL дядя,
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I120@ INDI
+1 NAME ? /ДЗУКАЕВ/
+2 GIVN ?
+2 SURN ДЗУКАЕВ
+1 SEX M
+1 FAMC @F31@
+1 TITL дядя,
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I121@ INDI
+1 NAME Зина /ТОМАЕВА/
+2 GIVN Зина
+2 SURN ТОМАЕВА
+1 SEX F
+1 FAMS @F30@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I122@ INDI
+1 NAME Артур /КАБИСОВ/
+2 GIVN Артур
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F30@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I123@ INDI
+1 NAME Альберт /КАБИСОВ/
+2 GIVN Альберт
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F30@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I124@ INDI
+1 NAME Жанна /КАБИСОВА/
+2 GIVN Жанна
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F30@
+1 TITL тётя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I125@ INDI
+1 NAME Эдик /КАБИСОВ/
+2 GIVN Эдик
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F30@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I126@ INDI
+1 NAME Зоя /?/
+2 GIVN Зоя
+2 SURN ?
+1 SEX F
+1 FAMS @F29@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I127@ INDI
+1 NAME Казбек /КАБИСОВ/
+2 GIVN Казбек
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F29@
+1 FAMS @F36@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I128@ INDI
+1 NAME Сергей /КАБИСОВ/
+2 GIVN Сергей
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F29@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I129@ INDI
+1 NAME Марина /?/
+2 GIVN Марина
+2 SURN ?
+1 SEX F
+1 FAMS @F36@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I130@ INDI
+1 NAME ? /КАБИСОВА/
+2 GIVN ?
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F36@
+1 TITL сестра,
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I131@ INDI
+1 NAME Неизвестная /КАБИСОВА/
+2 GIVN Неизвестная
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @I96@
+1 TITL тётя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I132@ INDI
+1 NAME Тембол /КАБИСОВ/
+2 GIVN Тембол
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F5@
+1 FAMS @F37@
+1 TITL дедушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I133@ INDI
+1 NAME Пётр /КАБИСОВ/
+2 GIVN Пётр
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F5@
+1 FAMS @F38@
+1 TITL дедушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I134@ INDI
+1 NAME Дуня /?/
+2 GIVN Дуня
+2 SURN ?
+1 SEX F
+1 FAMS @F37@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 19:25:29
+0 @I135@ INDI
+1 NAME Руслан /КАБИСОВ/
+2 GIVN Руслан
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F37@
+1 FAMS @F39@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I136@ INDI
+1 NAME Зарина /КАБИСОВА/
+2 GIVN Зарина
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F37@
+1 FAMS @F41@
+1 TITL тётя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I137@ INDI
+1 NAME Зарина /БЕСАЕВА/
+2 GIVN Зарина
+2 SURN БЕСАЕВА
+1 SEX F
+1 FAMS @F39@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I138@ INDI
+1 NAME Кристина /КАБИСОВА/
+2 GIVN Кристина
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F39@
+1 TITL сестра, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I139@ INDI
+1 NAME ? /КАБИСОВА/
+2 GIVN ?
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F39@
+1 TITL сестра,
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 19:25:37
+0 @I140@ INDI
+1 NAME Любомир /???/
+2 GIVN Любомир
+2 SURN ???
+1 SEX M
+1 FAMS @F41@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I141@ INDI
+1 NAME Яна /???/
+2 GIVN Яна
+2 SURN ???
+1 SEX F
+1 FAMC @F41@
+1 TITL сестра, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I142@ INDI
+1 NAME Зина /?/
+2 GIVN Зина
+2 SURN ?
+1 SEX F
+1 FAMS @F38@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 19:26:59
+0 @I143@ INDI
+1 NAME Гена /КАБИСОВ/
+2 GIVN Гена
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F38@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I144@ INDI
+1 NAME Алик /КАБИСОВ/
+2 GIVN Алик
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F38@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I145@ INDI
+1 NAME ? /КАБИСОВ/
+2 GIVN ?
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F38@
+1 TITL дядя,
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I146@ INDI
+1 NAME Маро /ТЕДЕЕВА/
+2 GIVN Маро
+2 SURN ТЕДЕЕВА
+1 SEX F
+1 FAMS @F40@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I147@ INDI
+1 NAME Георгий /КАБИСОВ/
+2 GIVN Георгий
+2 SURN КАБИСОВ
+1 SEX M
+1 BIRT
+2 DATE 1910
+1 DEAT
+2 DATE 1942
+1 FAMC @F40@
+1 FAMS @F42@
+1 TITL прадедушка,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:55:18
+0 @I148@ INDI
+1 NAME Аппалон /КАБИСОВ/
+2 GIVN Аппалон
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F40@
+1 TITL прадедушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I149@ INDI
+1 NAME Алекси /КАБИСОВ/
+2 GIVN Алекси
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F40@
+1 FAMS @F43@
+1 TITL прадедушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I150@ INDI
+1 NAME Иликъо /КАБИСОВ/
+2 GIVN Иликъо
+2 SURN КАБИСОВ
+1 SEX M
+1 BIRT
+2 DATE 1909
+1 DEAT
+2 DATE 1942
+1 FAMC @F40@
+1 FAMS @F44@
+1 TITL прадедушка,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:56:24
+0 @I151@ INDI
+1 NAME Лонги /КАБИСОВ/
+2 GIVN Лонги
+2 SURN КАБИСОВ
+1 SEX M
+1 BIRT
+2 DATE 1907
+1 DEAT
+2 DATE 1972
+1 FAMC @F40@
+1 FAMS @F45@
+1 TITL прадедушка,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:55:48
+0 @I152@ INDI
+1 NAME Люба /ДЖАГАЕВА/
+2 GIVN Люба
+2 SURN ДЖАГАЕВА
+1 SEX F
+1 BIRT
+2 DATE 25 OCT 1911
+1 DEAT
+2 DATE 16 OCT 2003
+1 FAMS @F42@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:37:47
+0 @I153@ INDI
+1 NAME Вилен /КАБИСОВ/
+2 GIVN Вилен
+2 SURN КАБИСОВ
+1 SEX M
+1 BIRT
+2 DATE 15 SEP 1939
+1 DEAT
+2 DATE 30 NOV 2009
+1 FAMC @F42@
+1 FAMS @F46@
+1 TITL дедушка,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:38:21
+0 @I154@ INDI
+1 NAME Лена /ВАЛИЕВА/
+2 GIVN Лена
+2 SURN ВАЛИЕВА
+1 SEX F
+1 BIRT
+2 DATE 30 NOV 1942
+1 DEAT
+2 DATE 2 FEB 2021
+1 FAMS @F46@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:38:51
+0 @I155@ INDI
+1 NAME Георгий /КАБИСОВ/
+2 GIVN Георгий
+2 SURN КАБИСОВ
+1 SEX M
+1 BIRT
+2 DATE 30 NOV 1978
+1 FAMC @F46@
+1 FAMS @F47@
+1 TITL дядя,
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 14:06:21
+0 @I156@ INDI
+1 NAME Виолета /КАБИСОВА/
+2 GIVN Виолета
+2 SURN КАБИСОВА
+1 SEX F
+1 BIRT
+2 DATE 4 JUN 1972
+1 FAMC @F46@
+1 FAMS @F48@
+1 FAMS @F49@
+1 TITL тётя,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:40:20
+0 @I157@ INDI
+1 NAME Джульета /КАБИСОВА/
+2 GIVN Джульета
+2 SURN КАБИСОВА
+1 SEX F
+1 BIRT
+2 DATE 21 JUN 1974
+1 FAMC @F46@
+1 FAMS @F50@
+1 TITL тётя,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:48:11
+0 @I158@ INDI
+1 NAME Белла /ДРЯЕВА/
+2 GIVN Белла
+2 SURN ДРЯЕВА
+1 SEX F
+1 BIRT
+2 DATE 24 OCT 1983
+1 FAMS @F47@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:39:34
+0 @I159@ INDI
+1 NAME Сослан /КАБИСОВ/
+2 GIVN Сослан
+2 SURN КАБИСОВ
+1 SEX M
+1 BIRT
+2 DATE 21 MAR 2004
+1 FAMC @F47@
+1 TITL брат,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:39:47
+0 @I160@ INDI
+1 NAME Диана /КАБИСОВА/
+2 GIVN Диана
+2 SURN КАБИСОВА
+1 SEX F
+1 BIRT
+2 DATE 9 NOV 2007
+1 FAMC @F47@
+1 TITL сестра,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:40:05
+0 @I161@ INDI
+1 NAME Махарбек /ПЛИЕВ/
+2 GIVN Махарбек
+2 SURN ПЛИЕВ
+1 SEX M
+1 FAMS @F48@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:51:23
+0 @I162@ INDI
+1 NAME Сармат /ПЛИЕВ/
+2 GIVN Сармат
+2 SURN ПЛИЕВ
+1 SEX M
+1 BIRT
+2 DATE 3 APR 1994
+1 FAMC @F48@
+1 TITL брат,
+1 FAMS @F110@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 23:12:05
+0 @I163@ INDI
+1 NAME Дудар /БАКАЕВ/
+2 GIVN Дудар
+2 SURN БАКАЕВ
+1 SEX M
+1 FAMS @F49@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 15:07:55
+0 @I164@ INDI
+1 NAME Эдуард /БАКАЕВ/
+2 GIVN Эдуард
+2 SURN БАКАЕВ
+1 SEX M
+1 BIRT
+2 DATE 5 JAN 2005
+1 FAMC @F49@
+1 TITL брат,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:46:19
+0 @I165@ INDI
+1 NAME Лана /БАКАЕВА/
+2 GIVN Лана
+2 SURN БАКАЕВА
+1 SEX F
+1 BIRT
+2 DATE 12 SEP 2001
+1 FAMC @F49@
+1 TITL сестра,
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 15:18:53
+0 @I166@ INDI
+1 NAME Алан /ГАГИЕВ/
+2 GIVN Алан
+2 SURN ГАГИЕВ
+1 SEX M
+1 BIRT
+2 DATE 22 APR 1972
+1 FAMS @F50@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:48:27
+0 @I167@ INDI
+1 NAME Ола /ВАЛИЕВА/
+2 GIVN Ола
+2 SURN ВАЛИЕВА
+1 SEX F
+1 FAMS @F43@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I168@ INDI
+1 NAME Валико /КАБИСОВ/
+2 GIVN Валико
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F43@
+1 FAMS @F51@
+1 TITL дедушка, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I169@ INDI
+1 NAME Тамара /КАБИСОВА/
+2 GIVN Тамара
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMS @F51@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I170@ INDI
+1 NAME Виталик /КАБИСОВ/
+2 GIVN Виталик
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F51@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I171@ INDI
+1 NAME Светлана /КАБИСОВА/
+2 GIVN Светлана
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F51@
+1 FAMS @F52@
+1 TITL тётя,
+1 CHAN
+2 DATE 24 MAY 2026
+3 TIME 10:21:37
+0 @I172@ INDI
+1 NAME Эдик /КОРТЯЕВ/
+2 GIVN Эдик
+2 SURN КОРТЯЕВ
+1 SEX M
+1 FAMS @F52@
+1 CHAN
+2 DATE 24 MAY 2026
+3 TIME 10:21:23
+0 @I173@ INDI
+1 NAME Виталик /КОРТЯЕВ/
+2 GIVN Виталик
+2 SURN КОРТЯЕВ
+1 SEX M
+1 FAMC @F52@
+1 TITL брат,
+1 CHAN
+2 DATE 24 MAY 2026
+3 TIME 10:21:46
+0 @I174@ INDI
+1 NAME Мадина /КОРТЯЕВА/
+2 GIVN Мадина
+2 SURN КОРТЯЕВА
+1 SEX F
+1 FAMC @F52@
+1 TITL сестра,
+1 FAMS @F106@
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 22:06:08
+0 @I175@ INDI
+1 NAME Марина /КОРТЯЕВА/
+2 GIVN Марина
+2 SURN КОРТЯЕВА
+1 SEX F
+1 FAMC @F52@
+1 TITL сестра,
+1 CHAN
+2 DATE 24 MAY 2026
+3 TIME 10:22:10
+0 @I176@ INDI
+1 NAME Люба /КОКОЕВА/
+2 GIVN Люба
+2 SURN КОКОЕВА
+1 SEX F
+1 FAMS @F44@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 19:18:53
+0 @I177@ INDI
+1 NAME Лева /КАБИСОВ/
+2 GIVN Лева
+2 SURN КАБИСОВ
+1 SEX M
+1 BIRT
+2 DATE 15 MAY 1942
+1 DEAT
+2 DATE 20 OCT 2023
+1 FAMC @F44@
+1 FAMS @F53@
+1 TITL дедушка
+2 NICK Рудик
+1 CHAN
+2 DATE 27 MAY 2026
+3 TIME 21:12:29
+0 @I178@ INDI
+1 NAME Сюзанна /ПЛИЕВА/
+2 GIVN Сюзанна
+2 SURN ПЛИЕВА
+1 SEX F
+1 BIRT
+2 DATE 20 JUL 1946
+1 FAMS @F53@
+1 CHAN
+2 DATE 27 MAY 2026
+3 TIME 21:12:45
+0 @I179@ INDI
+1 NAME Илья /КАБИСОВ/
+2 GIVN Илья
+2 SURN КАБИСОВ
+1 SEX M
+1 BIRT
+2 DATE 31 MAY 1971
+1 FAMC @F53@
+1 FAMS @F54@
+1 TITL дядя,
+1 CHAN
+2 DATE 27 MAY 2026
+3 TIME 21:12:58
+0 @I180@ INDI
+1 NAME Ирина /КАБИСОВА/
+2 GIVN Ирина
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F53@
+1 FAMS @F55@
+1 TITL тётя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I181@ INDI
+1 NAME Инна /КАБИСОВА/
+2 GIVN Инна
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F53@
+1 FAMS @F56@
+1 TITL тётя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I182@ INDI
+1 NAME Ада /ЦХОВРЕБОВА/
+2 GIVN Ада
+2 SURN ЦХОВРЕБОВА
+1 SEX F
+1 BIRT
+2 DATE 1 AUG 1971
+1 FAMS @F54@
+1 CHAN
+2 DATE 27 MAY 2026
+3 TIME 21:13:18
+0 @I183@ INDI
+1 NAME Ацамаз /КАБИСОВ/
+2 GIVN Ацамаз
+2 SURN КАБИСОВ
+1 SEX M
+1 BIRT
+2 DATE 18 JUN 1995
+1 FAMC @F54@
+1 TITL брат,
+1 CHAN
+2 DATE 27 MAY 2026
+3 TIME 21:13:32
+0 @I184@ INDI
+1 NAME Лана /КАБИСОВА/
+2 GIVN Лана
+2 SURN КАБИСОВА
+1 SEX F
+1 BIRT
+2 DATE 9 JAN 2000
+1 FAMC @F54@
+1 TITL сестра,
+1 FAMS @F103@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 15:15:31
+0 @I185@ INDI
+1 NAME Роберт /АЛБОРОВ/
+2 GIVN Роберт
+2 SURN АЛБОРОВ
+1 SEX M
+1 FAMS @F55@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I186@ INDI
+1 NAME Георгий /АЛБОРОВ/
+2 GIVN Георгий
+2 SURN АЛБОРОВ
+1 SEX M
+1 FAMC @F55@
+1 TITL брат, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I187@ INDI
+1 NAME Алик /ДЖАНАЕВ/
+2 GIVN Алик
+2 SURN ДЖАНАЕВ
+1 SEX M
+1 FAMS @F56@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I188@ INDI
+1 NAME Арсамаг /ДЖАНАЕВ/
+2 GIVN Арсамаг
+2 SURN ДЖАНАЕВ
+1 SEX M
+1 FAMC @F56@
+1 TITL брат, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I189@ INDI
+1 NAME Вика /ДЖАНАЕВА/
+2 GIVN Вика
+2 SURN ДЖАНАЕВА
+1 SEX F
+1 FAMC @F56@
+1 TITL сестра, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I190@ INDI
+1 NAME Дуня /ТАДТАЕВА/
+2 GIVN Дуня
+2 SURN ТАДТАЕВА
+1 SEX F
+1 FAMS @F45@
+1 CHAN
+2 DATE 24 MAY 2026
+3 TIME 10:38:20
+0 @I191@ INDI
+1 NAME Луиза /КАБИСОВА/
+2 GIVN Луиза
+2 SURN КАБИСОВА
+1 SEX F
+1 BIRT
+2 DATE 28 DEC 1942
+1 FAMC @F45@
+1 FAMS @F57@
+1 TITL бабушка,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 18:12:03
+0 @I192@ INDI
+1 NAME Асиат /КАБИСОВА/
+2 GIVN Асиат
+2 SURN КАБИСОВА
+1 SEX F
+1 BIRT
+2 DATE 1939
+1 DEAT
+2 DATE 2024
+1 FAMC @F45@
+1 FAMS @F58@
+1 TITL бабушка,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:57:01
+0 @I193@ INDI
+1 NAME Вера /КАБИСОВА/
+2 GIVN Вера
+2 SURN КАБИСОВА
+1 SEX F
+1 BIRT
+2 DATE 1932
+1 DEAT
+2 DATE 2006
+1 FAMC @F45@
+1 FAMS @F59@
+1 TITL бабушка,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:57:37
+0 @I194@ INDI
+1 NAME Володя /КАБИСОВ/
+2 GIVN Володя
+2 SURN КАБИСОВ
+1 SEX M
+1 BIRT
+2 DATE 1935
+1 DEAT
+2 DATE 2008
+1 FAMC @F45@
+1 FAMS @F60@
+1 TITL дедушка
+2 NICK Вало
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:58:47
+0 @I195@ INDI
+1 NAME Заур /КАБИСОВ/
+2 GIVN Заур
+2 SURN КАБИСОВ
+1 SEX M
+1 BIRT
+2 DATE 1936
+1 DEAT
+2 DATE 1996
+1 FAMC @F45@
+1 FAMS @F61@
+1 TITL дедушка,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:59:02
+0 @I196@ INDI
+1 NAME Георгий /КАБИСОВ/
+2 GIVN Георгий
+2 SURN КАБИСОВ
+1 SEX M
+1 BIRT
+2 DATE 21 JUN 1950
+1 DEAT
+2 DATE 13 APR 2023
+1 FAMC @F45@
+1 FAMS @F62@
+1 TITL дедушка
+2 NICK Жорик
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 12:28:44
+0 @I197@ INDI
+1 NAME Ира /КАБИСОВА/
+2 GIVN Ира
+2 SURN КАБИСОВА
+1 SEX F
+1 BIRT
+2 DATE 15 AUG 1943
+1 DEAT
+2 DATE 3 JAN 2019
+1 FAMC @F45@
+1 FAMS @F63@
+1 TITL бабушка,
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 10:06:16
+0 @I198@ INDI
+1 NAME Соня /КАБИСОВА/
+2 GIVN Соня
+2 SURN КАБИСОВА
+1 SEX F
+1 BIRT
+2 DATE 24 JUN 1946
+1 FAMC @F45@
+1 FAMS @F64@
+1 TITL бабушка,
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 10:58:30
+0 @I199@ INDI
+1 NAME Хасан /БАГАЕВ/
+2 GIVN Хасан
+2 SURN БАГАЕВ
+1 SEX M
+1 BIRT
+2 DATE 28 DEC 1938
+1 DEAT
+2 DATE 10 FEB 2010
+1 FAMS @F57@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:31:38
+0 @I201@ INDI
+1 NAME Аслан /БАГАЕВ/
+2 GIVN Аслан
+2 SURN БАГАЕВ
+1 SEX M
+1 BIRT
+2 DATE 29 MAR 1978
+1 FAMC @F57@
+1 FAMS @F66@
+1 TITL дядя,
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:25:51
+0 @I202@ INDI
+1 NAME Лаура /БАГАЕВА/
+2 GIVN Лаура
+2 SURN БАГАЕВА
+1 SEX F
+1 BIRT
+2 DATE 9 NOV 1972
+1 FAMC @F57@
+1 FAMS @F67@
+1 TITL тётя,
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:22:00
+0 @I203@ INDI
+1 NAME Акакий /ВАЛИШВИЛИ/
+2 GIVN Акакий
+2 SURN ВАЛИШВИЛИ
+1 SEX M
+1 FAMS @F58@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I204@ INDI
+1 NAME Володя /КОЗАЕВ/
+2 GIVN Володя
+2 SURN КОЗАЕВ
+1 SEX M
+1 FAMS @F59@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I205@ INDI
+1 NAME Руслан /КОЗАЕВ/
+2 GIVN Руслан
+2 SURN КОЗАЕВ
+1 SEX M
+1 FAMC @F59@
+1 FAMS @F68@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I206@ INDI
+1 NAME Зина /КОЗАЕВА/
+2 GIVN Зина
+2 SURN КОЗАЕВА
+1 SEX F
+1 FAMC @F59@
+1 FAMS @F69@
+1 TITL тётя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I207@ INDI
+1 NAME Залина /КОЗАЕВА/
+2 GIVN Залина
+2 SURN КОЗАЕВА
+1 SEX F
+1 BIRT
+2 DATE 24 JUN 1962
+1 FAMC @F59@
+1 FAMS @F70@
+1 TITL тётя,
+1 CHAN
+2 DATE 27 MAY 2026
+3 TIME 20:20:19
+0 @I208@ INDI
+1 NAME Тъасо /ДЗИГОЕВА/
+2 GIVN Тъасо
+2 SURN ДЗИГОЕВА
+1 SEX F
+1 FAMS @F60@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I209@ INDI
+1 NAME Валерий /КАБИСОВ/
+2 GIVN Валерий
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F60@
+1 FAMS @F71@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I210@ INDI
+1 NAME Виталий /КАБИСОВ/
+2 GIVN Виталий
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F60@
+1 FAMS @F72@
+1 FAMS @F73@
+1 TITL дядя,
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 18:40:23
+0 @I211@ INDI
+1 NAME Валентина /КАБИСОВА/
+2 GIVN Валентина
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F60@
+1 FAMS @F74@
+1 TITL тётя,
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 18:40:10
+0 @I212@ INDI
+1 NAME Лариса /ГАБАРАЕВА/
+2 GIVN Лариса
+2 SURN ГАБАРАЕВА
+1 SEX F
+1 FAMS @F71@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I213@ INDI
+1 NAME Алан /КАБИСОВ/
+2 GIVN Алан
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F71@
+1 FAMS @F75@
+1 TITL брат, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I214@ INDI
+1 NAME Заурбек /КАБИСОВ/
+2 GIVN Заурбек
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F71@
+1 TITL брат,
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 14:35:19
+0 @I215@ INDI
+1 NAME Мадина /КАБИСОВА/
+2 GIVN Мадина
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F71@
+1 TITL сестра, 
+1 FAMS @F102@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I216@ INDI
+1 NAME Залина /КОЗАЕВА/
+2 GIVN Залина
+2 SURN КОЗАЕВА
+1 SEX F
+1 FAMS @F72@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I217@ INDI
+1 NAME Зарина /КАБИСОВА/
+2 GIVN Зарина
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F72@
+1 TITL сестра, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I218@ INDI
+1 NAME Азамат /КАБИСОВ/
+2 GIVN Азамат
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F72@
+1 TITL брат, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I219@ INDI
+1 NAME Милана /КАБИСОВА/
+2 GIVN Милана
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F72@
+1 FAMS @F76@
+1 TITL сестра, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I220@ INDI
+1 NAME Тома /ЧЕЛЬДИЕВА/
+2 GIVN Тома
+2 SURN ЧЕЛЬДИЕВА
+1 SEX F
+1 FAMS @F73@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I221@ INDI
+1 NAME Давид /КАБИСОВ/
+2 GIVN Давид
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F73@
+1 TITL брат, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I222@ INDI
+1 NAME Звиади /ЧАЧХИАНИ/
+2 GIVN Звиади
+2 SURN ЧАЧХИАНИ
+1 SEX M
+1 FAMS @F74@
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 18:37:26
+0 @I223@ INDI
+1 NAME Георгий /ЧАЧХИАНИ/
+2 GIVN Георгий
+2 SURN ЧАЧХИАНИ
+1 SEX M
+1 FAMC @F74@
+1 TITL брат,
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 18:37:34
+0 @I224@ INDI
+1 NAME Анжелика /САВЛОХОВА/
+2 GIVN Анжелика
+2 SURN САВЛОХОВА
+1 SEX F
+1 FAMS @F75@
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 14:49:22
+0 @I225@ INDI
+1 NAME Луиза /КАБИСОВА/
+2 GIVN Луиза
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F75@
+1 TITL племянница, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I226@ INDI
+1 NAME Арсалан /КАБИСОВ/
+2 GIVN Арсалан
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F75@
+1 TITL племянник, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I227@ INDI
+1 NAME Арсамаг /КАБИСОВ/
+2 GIVN Арсамаг
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F75@
+1 TITL племянник, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I228@ INDI
+1 NAME Виталик /НАНИЕВ/
+2 GIVN Виталик
+2 SURN НАНИЕВ
+1 SEX M
+1 FAMS @F76@
+1 CHAN
+2 DATE 24 MAY 2026
+3 TIME 10:19:03
+0 @I229@ INDI
+1 NAME Мария /НАНИЕВА/
+2 GIVN Мария
+2 SURN НАНИЕВА
+1 SEX F
+1 FAMC @F76@
+1 TITL племянница,
+1 CHAN
+2 DATE 24 MAY 2026
+3 TIME 10:20:28
+0 @I230@ INDI
+1 NAME Зара /АЙЛАРОВА/
+2 GIVN Зара
+2 SURN АЙЛАРОВА
+1 SEX F
+1 FAMS @F61@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I231@ INDI
+1 NAME Лариса /КАБИСОВА/
+2 GIVN Лариса
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F61@
+1 FAMS @F77@
+1 TITL тётя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I232@ INDI
+1 NAME Марина /КАБИСОВА/
+2 GIVN Марина
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F61@
+1 FAMS @F78@
+1 TITL тётя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I233@ INDI
+1 NAME Алан /КАБИСОВ/
+2 GIVN Алан
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F61@
+1 FAMS @F79@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I234@ INDI
+1 NAME Игорь /КАБИСОВ/
+2 GIVN Игорь
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F61@
+1 FAMS @F80@
+1 TITL дядя,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 18:20:24
+0 @I235@ INDI
+1 NAME Марат /КАБИСОВ/
+2 GIVN Марат
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F61@
+1 TITL дядя, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I236@ INDI
+1 NAME /?/
+2 SURN ?
+1 SEX M
+1 FAMS @F77@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I237@ INDI
+1 NAME Зарина /???/
+2 GIVN Зарина
+2 SURN ???
+1 SEX F
+1 FAMC @F77@
+1 TITL сестра, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I238@ INDI
+1 NAME Марина /???/
+2 GIVN Марина
+2 SURN ???
+1 SEX F
+1 FAMC @F77@
+1 TITL сестра, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I239@ INDI
+1 NAME Гоги /ДЖИГКАЕВ/
+2 GIVN Гоги
+2 SURN ДЖИГКАЕВ
+1 SEX M
+1 FAMS @F78@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I240@ INDI
+1 NAME Владислав /ДЖИГКАЕВ/
+2 GIVN Владислав
+2 SURN ДЖИГКАЕВ
+1 SEX M
+1 FAMC @F78@
+1 TITL брат, 
+1 FAMS @F107@
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 22:07:04
+0 @I241@ INDI
+1 NAME Вероника /ДЖИГКАЕВА/
+2 GIVN Вероника
+2 SURN ДЖИГКАЕВА
+1 SEX F
+1 FAMC @F78@
+1 TITL сестра, 
+1 FAMS @F108@
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 22:07:14
+0 @I242@ INDI
+1 NAME Анжелика /ДЖИГКАЕВА/
+2 GIVN Анжелика
+2 SURN ДЖИГКАЕВА
+1 SEX F
+1 FAMC @F78@
+1 TITL сестра, 
+1 FAMS @F109@
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 22:07:24
+0 @I243@ INDI
+1 NAME /?/
+2 SURN ?
+1 SEX F
+1 FAMS @F79@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I244@ INDI
+1 NAME Алибек /КАБИСОВ/
+2 GIVN Алибек
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F79@
+1 TITL брат, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I245@ INDI
+1 NAME Ирина /ГАЗДАНОВА/
+2 GIVN Ирина
+2 SURN ГАЗДАНОВА
+1 SEX F
+1 FAMS @F80@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I246@ INDI
+1 NAME Артур /КАБИСОВ/
+2 GIVN Артур
+2 SURN КАБИСОВ
+1 SEX M
+1 FAMC @F80@
+1 TITL брат, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I247@ INDI
+1 NAME Марта /КАБИСОВА/
+2 GIVN Марта
+2 SURN КАБИСОВА
+1 SEX F
+1 FAMC @F80@
+1 TITL сестра, 
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I248@ INDI
+1 NAME Венера /БИЧЕНОВА/
+2 GIVN Венера
+2 SURN БИЧЕНОВА
+1 SEX F
+1 BIRT
+2 DATE 30 JAN 1954
+1 FAMS @F62@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 12:29:00
+0 @I249@ INDI
+1 NAME Альбина /КАБИСОВА/
+2 GIVN Альбина
+2 SURN КАБИСОВА
+1 SEX F
+1 BIRT
+2 DATE 18 MAR 1974
+1 FAMC @F62@
+1 FAMS @F81@
+1 TITL тётя,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 12:31:30
+0 @I250@ INDI
+1 NAME Тимур /КАБИСОВ/
+2 GIVN Тимур
+2 SURN КАБИСОВ
+1 SEX M
+1 BIRT
+2 DATE 22 JAN 1976
+1 FAMC @F62@
+1 FAMS @F82@
+1 TITL дядя,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 12:30:14
+0 @I251@ INDI
+1 NAME Тамик /КАБИСОВ/
+2 GIVN Тамик
+2 SURN КАБИСОВ
+1 SEX M
+1 BIRT
+2 DATE 16 MAR 1977
+1 FAMC @F62@
+1 FAMS @F83@
+1 TITL дядя,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 12:29:14
+0 @I252@ INDI
+1 NAME Сослан /КАБИСОВ/
+2 GIVN Сослан
+2 SURN КАБИСОВ
+1 SEX M
+1 BIRT
+2 DATE 17 MAY 1979
+1 FAMC @F62@
+1 FAMS @F84@
+1 TITL дядя,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 12:32:14
+0 @I253@ INDI
+1 NAME Давид /КОБЕСОВ/
+2 GIVN Давид
+2 SURN КОБЕСОВ
+1 SEX M
+1 FAMS @F81@
+1 CHAN
+2 DATE 24 MAY 2026
+3 TIME 10:26:34
+0 @I254@ INDI
+1 NAME Амина /КОБЕСОВА/
+2 GIVN Амина
+2 SURN КОБЕСОВА
+1 SEX F
+1 BIRT
+2 DATE 11 DEC 2005
+1 FAMC @F81@
+1 TITL сестра,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 12:31:49
+0 @I255@ INDI
+1 NAME Богдан /КОБЕСОВ/
+2 GIVN Богдан
+2 SURN КОБЕСОВ
+1 SEX M
+1 BIRT
+2 DATE 5 SEP 2008
+1 FAMC @F81@
+1 TITL брат,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 12:31:56
+0 @I256@ INDI
+1 NAME Ирина /ПРИБЫЛОВА/
+2 GIVN Ирина
+2 SURN ПРИБЫЛОВА
+1 SEX F
+1 BIRT
+2 DATE 28 NOV 1988
+1 FAMS @F82@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 12:30:30
+0 @I257@ INDI
+1 NAME Джамболат /КАБИСОВ/
+2 GIVN Джамболат
+2 SURN КАБИСОВ
+1 SEX M
+1 BIRT
+2 DATE 31 MAY 2011
+1 FAMC @F82@
+1 TITL брат,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 12:30:45
+0 @I258@ INDI
+1 NAME Максим /КАБИСОВ/
+2 GIVN Максим
+2 SURN КАБИСОВ
+1 SEX M
+1 BIRT
+2 DATE 2 JAN 2013
+1 FAMC @F82@
+1 TITL брат,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 12:30:58
+0 @I259@ INDI
+1 NAME Алиса /КАБИСОВА/
+2 GIVN Алиса
+2 SURN КАБИСОВА
+1 SEX F
+1 BIRT
+2 DATE 28 APR 2014
+1 FAMC @F82@
+1 TITL сестра,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 12:31:12
+0 @I260@ INDI
+1 NAME Залина /ДЬЯКОНОВА/
+2 GIVN Залина
+2 SURN ДЬЯКОНОВА
+1 SEX F
+1 BIRT
+2 DATE 20 MAR 1986
+1 FAMS @F83@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 12:29:28
+0 @I261@ INDI
+1 NAME Арсен /КАБИСОВ/
+2 GIVN Арсен
+2 SURN КАБИСОВ
+1 SEX M
+1 BIRT
+2 DATE 9 JUL 2005
+1 FAMC @F83@
+1 TITL брат,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 12:29:49
+0 @I262@ INDI
+1 NAME Артём /КАБИСОВ/
+2 GIVN Артём
+2 SURN КАБИСОВ
+1 SEX M
+1 BIRT
+2 DATE 11 SEP 2011
+1 FAMC @F83@
+1 TITL брат,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 12:29:39
+0 @I263@ INDI
+1 NAME Залина /БЯЗРОВА/
+2 GIVN Залина
+2 SURN БЯЗРОВА
+1 SEX F
+1 BIRT
+2 DATE 24 FEB 1981
+1 FAMS @F84@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 12:32:27
+0 @I264@ INDI
+1 NAME Денис /КАБИСОВ/
+2 GIVN Денис
+2 SURN КАБИСОВ
+1 SEX M
+1 BIRT
+2 DATE 22 AUG 2012
+1 FAMC @F84@
+1 TITL брат,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 12:32:48
+0 @I265@ INDI
+1 NAME Арина /КАБИСОВА/
+2 GIVN Арина
+2 SURN КАБИСОВА
+1 SEX F
+1 BIRT
+2 DATE 25 AUG 2005
+1 FAMC @F84@
+1 TITL сестра,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 12:33:02
+0 @I266@ INDI
+1 NAME Альмира /КАБИСОВА/
+2 GIVN Альмира
+2 SURN КАБИСОВА
+1 SEX F
+1 BIRT
+2 DATE 17 OCT 2006
+1 FAMC @F84@
+1 TITL сестра,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 12:33:12
+0 @I267@ INDI
+1 NAME София /КАБИСОВА/
+2 GIVN София
+2 SURN КАБИСОВА
+1 SEX F
+1 BIRT
+2 DATE 20 JAN 2022
+1 FAMC @F84@
+1 TITL сестра,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 12:33:20
+0 @I268@ INDI
+1 NAME Михаил /ГАГЛОЕВ/
+2 GIVN Михаил
+2 SURN ГАГЛОЕВ
+1 SEX M
+1 BIRT
+2 DATE 28 DEC 1938
+1 DEAT
+2 DATE 6 MAY 2009
+1 FAMS @F63@
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 10:05:58
+0 @I269@ INDI
+1 NAME Эльвира /ГАГЛОЕВА/
+2 GIVN Эльвира
+2 SURN ГАГЛОЕВА
+1 SEX F
+1 BIRT
+2 DATE 15 JUN 1967
+1 FAMC @F63@
+1 FAMS @F85@
+1 TITL тётя,
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 10:06:42
+0 @I270@ INDI
+1 NAME Ляна /ГАГЛОЕВА/
+2 GIVN Ляна
+2 SURN ГАГЛОЕВА
+1 SEX F
+1 FAMC @F63@
+1 FAMS @F86@
+1 FAMS @F87@
+1 TITL тётя,
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 18:40:42
+0 @I271@ INDI
+1 NAME Славик /ТАНДЕЛОВ/
+2 GIVN Славик
+2 SURN ТАНДЕЛОВ
+1 SEX M
+1 BIRT
+2 DATE 20 MAR 1966
+1 FAMS @F85@
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 10:06:25
+0 @I272@ INDI
+1 NAME Алёна /ТАНДЕЛОВА/
+2 GIVN Алёна
+2 SURN ТАНДЕЛОВА
+1 SEX F
+1 BIRT
+2 DATE 1 NOV 1993
+1 FAMC @F85@
+1 FAMS @F88@
+1 TITL сестра,
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 10:06:57
+0 @I273@ INDI
+1 NAME Оксана /ТАНДЕЛОВА/
+2 GIVN Оксана
+2 SURN ТАНДЕЛОВА
+1 SEX F
+1 BIRT
+2 DATE 30 APR 1996
+1 FAMC @F85@
+1 TITL сестра,
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 10:07:07
+0 @I274@ INDI
+1 NAME Ангелина /ТАНДЕЛОВА/
+2 GIVN Ангелина
+2 SURN ТАНДЕЛОВА
+1 SEX F
+1 BIRT
+2 DATE 29 OCT 2001
+1 FAMC @F85@
+1 FAMS @F89@
+1 TITL сестра,
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 10:55:55
+0 @I275@ INDI
+1 NAME Александр /ИВАНИДИ/
+2 GIVN Александр
+2 SURN ИВАНИДИ
+1 SEX M
+1 FAMS @F86@
+1 CHAN
+2 DATE 24 MAY 2026
+3 TIME 10:14:49
+0 @I276@ INDI
+1 NAME Натали /ГАГЛОЕВА/
+2 GIVN Натали
+2 SURN ГАГЛОЕВА
+1 SEX F
+1 FAMC @F86@
+1 TITL сестра,
+1 CHAN
+2 DATE 24 MAY 2026
+3 TIME 10:14:59
+0 @I277@ INDI
+1 NAME Владислав /АЙДАРОВ/
+2 GIVN Владислав
+2 SURN АЙДАРОВ
+1 SEX M
+1 FAMS @F87@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 15:20:54
+0 @I278@ INDI
+1 NAME Мадина /АЙДАРОВА/
+2 GIVN Мадина
+2 SURN АЙДАРОВА
+1 SEX F
+1 FAMC @F87@
+1 TITL сестра,
+1 CHAN
+2 DATE 24 MAY 2026
+3 TIME 10:15:22
+0 @I279@ INDI
+1 NAME Урузмаг /ДЖИОЕВ/
+2 GIVN Урузмаг
+2 SURN ДЖИОЕВ
+1 SEX M
+1 BIRT
+2 DATE 18 AUG 1990
+1 FAMS @F88@
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 10:08:26
+0 @I280@ INDI
+1 NAME Давид /ДЖИОЕВ/
+2 GIVN Давид
+2 SURN ДЖИОЕВ
+1 SEX M
+1 BIRT
+2 DATE 19 JUN 2019
+1 FAMC @F88@
+1 TITL племянник,
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 10:09:02
+0 @I281@ INDI
+1 NAME Азамат /ХОСРОЕВ/
+2 GIVN Азамат
+2 SURN ХОСРОЕВ
+1 SEX M
+1 BIRT
+2 DATE 10 JUL 2000
+1 FAMS @F89@
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 10:08:16
+0 @I282@ INDI
+1 NAME Пётр /ДЖИКАЕВ/
+2 GIVN Пётр
+2 SURN ДЖИКАЕВ
+1 SEX M
+1 BIRT
+2 DATE 22 MAY 1940
+1 DEAT
+2 DATE 25 JAN 2020
+1 FAMS @F64@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:18:11
+0 @I283@ INDI
+1 NAME Алина /ДЖИКАЕВА/
+2 GIVN Алина
+2 SURN ДЖИКАЕВА
+1 SEX F
+1 BIRT
+2 DATE 1 SEP 1986
+1 FAMC @F64@
+1 FAMS @F90@
+1 TITL мама,
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:15:17
+0 @I284@ INDI
+1 NAME Олег /СКОРОБОГАТОВ/
+2 GIVN Олег
+2 SURN СКОРОБОГАТОВ
+1 SEX M
+1 FAMS @F90@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 11:13:39
+0 @I285@ INDI
+1 NAME Заур /СКОРОБОГАТОВ/
+2 GIVN Заур
+2 SURN СКОРОБОГАТОВ
+1 SEX M
+1 BIRT
+2 DATE 29 APR 2005
+1 FAMC @F90@
+1 TITL я,
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 09:13:28
+0 @I286@ INDI
+1 NAME Милена /СКОРОБОГАТОВА/
+2 GIVN Милена
+2 SURN СКОРОБОГАТОВА
+1 SEX F
+1 BIRT
+2 DATE 1 AUG 2010
+1 FAMC @F90@
+1 TITL сестра,
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:14:58
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I325@
+1 CHIL @I2@
+1 CHIL @I3@
+1 CHIL @I4@
+1 CHIL @I_D1@
+1 CHIL @I_D2@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:19:24
+0 @F2@ FAM
+1 HUSB @I2@
+1 WIFE @I326@
+1 CHIL @I5@
+1 CHIL @I6@
+1 CHIL @I7@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:19:34
+0 @F3@ FAM
+1 HUSB @I7@
+1 WIFE @I324@
+1 CHIL @I11@
+1 CHIL @I12@
+1 CHIL @I13@
+1 CHIL @I14@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:19:00
+0 @F4@ FAM
+1 HUSB @I5@
+1 WIFE @I327@
+1 CHIL @I8@
+1 CHIL @I9@
+1 CHIL @I10@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:19:42
+0 @F5@ FAM
+1 HUSB @I3@
+1 WIFE @I328@
+1 CHIL @I15@
+1 CHIL @I16@
+1 CHIL @I17@
+1 CHIL @I18@
+1 CHIL @I19@
+1 CHIL @I132@
+1 CHIL @I133@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:19:51
+0 @F6@ FAM
+1 HUSB @I19@
+1 WIFE @I20@
+1 CHIL @I21@
+1 CHIL @I22@
+1 CHIL @I23@
+1 CHIL @I24@
+1 CHIL @I25@
+1 CHIL @I26@
+1 CHIL @I27@
+0 @F7@ FAM
+1 HUSB @I21@
+1 WIFE @I28@
+1 CHIL @I29@
+1 CHIL @I30@
+1 CHIL @I31@
+0 @F8@ FAM
+1 HUSB @I29@
+1 WIFE @I32@
+1 CHIL @I33@
+1 CHIL @I34@
+1 CHIL @I35@
+0 @F9@ FAM
+1 HUSB @I30@
+1 WIFE @I36@
+1 CHIL @I37@
+0 @F10@ FAM
+1 WIFE @I31@
+1 HUSB @I38@
+1 CHIL @I39@
+1 DIV Y
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 18:42:34
+0 @F11@ FAM
+1 WIFE @I31@
+1 HUSB @I40@
+1 CHIL @I41@
+0 @F12@ FAM
+1 HUSB @I22@
+1 WIFE @I42@
+1 CHIL @I43@
+1 CHIL @I44@
+1 CHIL @I45@
+0 @F13@ FAM
+1 HUSB @I23@
+1 WIFE @I46@
+1 CHIL @I47@
+1 CHIL @I48@
+0 @F14@ FAM
+1 HUSB @I24@
+1 WIFE @I49@
+1 CHIL @I50@
+1 CHIL @I51@
+0 @F15@ FAM
+1 HUSB @I47@
+1 WIFE @I329@
+1 CHIL Неизвестный брат
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:21:04
+0 @F16@ FAM
+1 HUSB @I50@
+1 WIFE @I52@
+1 CHIL @I53@
+1 CHIL @I54@
+1 CHIL @I55@
+0 @F17@ FAM
+1 WIFE @I25@
+1 HUSB @I60@
+1 CHIL @I61@
+1 CHIL @I62@
+1 CHIL @I63@
+1 CHIL @I64@
+0 @F18@ FAM
+1 WIFE @I51@
+1 HUSB @I56@
+1 CHIL @I57@
+1 CHIL @I58@
+1 CHIL @I59@
+0 @F19@ FAM
+1 HUSB @I61@
+1 WIFE @I65@
+1 CHIL @I66@
+1 CHIL @I67@
+1 CHIL @I68@
+1 CHIL @I69@
+0 @F20@ FAM
+1 WIFE @I62@
+1 HUSB @I70@
+1 CHIL @I71@
+1 CHIL @I72@
+0 @F21@ FAM
+1 HUSB @I63@
+1 WIFE @I73@
+1 CHIL @I74@
+1 CHIL @I75@
+0 @F22@ FAM
+1 HUSB @I64@
+1 WIFE @I76@
+1 CHIL @I77@
+1 CHIL @I78@
+1 CHIL @I79@
+0 @F23@ FAM
+1 HUSB @I74@
+1 WIFE @I80@
+1 CHIL @I81@
+1 CHIL @I82@
+0 @F25@ FAM
+1 HUSB @I75@
+1 WIFE @I83@
+1 CHIL @I84@
+1 CHIL @I85@
+0 @F24@ FAM
+1 WIFE @I26@
+1 HUSB @I86@
+1 CHIL @I87@
+1 CHIL @I88@
+0 @F26@ FAM
+1 HUSB @I87@
+1 WIFE @I89@
+1 CHIL @I90@
+0 @F28@ FAM
+1 HUSB @I88@
+1 WIFE @I91@
+1 CHIL @I92@
+1 CHIL @I93@
+0 @F27@ FAM
+1 HUSB @I17@
+1 WIFE @I94@
+1 CHIL @I95@
+1 CHIL @I96@
+1 CHIL @I97@
+1 CHIL @I98@
+1 CHIL @I99@
+1 CHIL @I100@
+1 CHIL @I101@
+1 CHIL @I102@
+0 @F29@ FAM
+1 HUSB @I97@
+1 WIFE @I126@
+1 CHIL @I127@
+1 CHIL @I128@
+0 @F30@ FAM
+1 HUSB @I98@
+1 WIFE @I121@
+1 CHIL @I122@
+1 CHIL @I123@
+1 CHIL @I124@
+1 CHIL @I125@
+0 @F31@ FAM
+1 WIFE @I100@
+1 HUSB @I118@
+1 CHIL @I119@
+1 CHIL @I120@
+0 @F32@ FAM
+1 WIFE @I101@
+1 HUSB @I111@
+1 CHIL @I112@
+1 CHIL @I113@
+1 CHIL @I114@
+0 @F33@ FAM
+1 WIFE @I102@
+1 HUSB @I103@
+1 CHIL @I104@
+1 CHIL @I105@
+1 CHIL @I106@
+1 CHIL @I107@
+0 @F34@ FAM
+1 WIFE @I104@
+1 HUSB @I108@
+1 CHIL @I109@
+1 CHIL @I110@
+0 @F35@ FAM
+1 HUSB @I112@
+1 WIFE @I115@
+1 CHIL @I116@
+1 CHIL @I117@
+0 @F36@ FAM
+1 HUSB @I127@
+1 WIFE @I129@
+1 CHIL @I130@
+0 @F37@ FAM
+1 HUSB @I132@
+1 WIFE @I134@
+1 CHIL @I135@
+1 CHIL @I136@
+0 @F38@ FAM
+1 HUSB @I133@
+1 WIFE @I142@
+1 CHIL @I143@
+1 CHIL @I144@
+1 CHIL @I145@
+0 @F39@ FAM
+1 HUSB @I135@
+1 WIFE @I137@
+1 CHIL @I138@
+1 CHIL @I139@
+0 @F41@ FAM
+1 WIFE @I136@
+1 HUSB @I140@
+1 CHIL @I141@
+0 @F40@ FAM
+1 HUSB @I4@
+1 WIFE @I146@
+1 CHIL @I147@
+1 CHIL @I148@
+1 CHIL @I149@
+1 CHIL @I150@
+1 CHIL @I151@
+0 @F42@ FAM
+1 HUSB @I147@
+1 WIFE @I152@
+1 CHIL @I153@
+0 @F43@ FAM
+1 HUSB @I149@
+1 WIFE @I167@
+1 CHIL @I168@
+0 @F44@ FAM
+1 HUSB @I150@
+1 WIFE @I176@
+1 CHIL @I177@
+0 @F45@ FAM
+1 HUSB @I151@
+1 WIFE @I190@
+1 CHIL @I191@
+1 CHIL @I192@
+1 CHIL @I193@
+1 CHIL @I194@
+1 CHIL @I195@
+1 CHIL @I196@
+1 CHIL @I197@
+1 CHIL @I198@
+0 @F46@ FAM
+1 HUSB @I153@
+1 WIFE @I154@
+1 CHIL @I155@
+1 CHIL @I156@
+1 CHIL @I157@
+0 @F47@ FAM
+1 HUSB @I155@
+1 WIFE @I158@
+1 CHIL @I159@
+1 CHIL @I160@
+0 @F48@ FAM
+1 WIFE @I156@
+1 HUSB @I161@
+1 CHIL @I162@
+1 DIV Y
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:46:47
+0 @F49@ FAM
+1 WIFE @I156@
+1 HUSB @I163@
+1 CHIL @I164@
+1 CHIL @I165@
+0 @F50@ FAM
+1 WIFE @I157@
+1 HUSB @I166@
+1 CHIL @I330@
+1 CHIL @I331@
+1 CHAN
+2 DATE 24 MAY 2026
+3 TIME 10:36:48
+0 @F51@ FAM
+1 HUSB @I168@
+1 WIFE @I169@
+1 CHIL @I170@
+1 CHIL @I171@
+0 @F52@ FAM
+1 WIFE @I171@
+1 HUSB @I172@
+1 CHIL @I173@
+1 CHIL @I174@
+1 CHIL @I175@
+0 @F53@ FAM
+1 HUSB @I177@
+1 WIFE @I178@
+1 CHIL @I179@
+1 CHIL @I180@
+1 CHIL @I181@
+0 @F54@ FAM
+1 HUSB @I179@
+1 WIFE @I182@
+1 CHIL @I183@
+1 CHIL @I184@
+0 @F55@ FAM
+1 WIFE @I180@
+1 HUSB @I185@
+1 CHIL @I186@
+0 @F56@ FAM
+1 WIFE @I181@
+1 HUSB @I187@
+1 CHIL @I188@
+1 CHIL @I189@
+0 @F57@ FAM
+1 WIFE @I191@
+1 HUSB @I199@
+1 CHIL @I200@
+1 CHIL @I201@
+1 CHIL @I202@
+0 @F58@ FAM
+1 WIFE @I192@
+1 HUSB @I203@
+0 @F59@ FAM
+1 WIFE @I193@
+1 HUSB @I204@
+1 CHIL @I205@
+1 CHIL @I206@
+1 CHIL @I207@
+0 @F60@ FAM
+1 HUSB @I194@
+1 WIFE @I208@
+1 CHIL @I209@
+1 CHIL @I210@
+1 CHIL @I211@
+0 @F61@ FAM
+1 HUSB @I195@
+1 WIFE @I230@
+1 CHIL @I231@
+1 CHIL @I232@
+1 CHIL @I233@
+1 CHIL @I234@
+1 CHIL @I235@
+0 @F62@ FAM
+1 HUSB @I196@
+1 WIFE @I248@
+1 CHIL @I249@
+1 CHIL @I250@
+1 CHIL @I251@
+1 CHIL @I252@
+0 @F63@ FAM
+1 WIFE @I197@
+1 HUSB @I268@
+1 CHIL @I269@
+1 CHIL @I270@
+0 @F64@ FAM
+1 WIFE @I198@
+1 HUSB @I282@
+1 CHIL @I283@
+0 @F65@ FAM
+1 HUSB @I200@
+1 WIFE @I288@
+1 CHIL Артур Багаев
+1 CHIL Роберт Багаев
+1 CHIL Виталий Багаев
+1 CHIL @I289@
+1 CHIL @I290@
+1 CHIL @I291@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 13:47:46
+0 @F66@ FAM
+1 HUSB @I201@
+1 WIFE @I292@
+1 CHIL Алина Багаева
+1 CHIL Алана Багаева
+1 CHIL Валерия Багаева
+1 CHIL Марат Багаев
+1 CHIL Сармат Багаев
+1 CHIL @I293@
+1 CHIL @I294@
+1 CHIL @I295@
+1 CHIL @I296@
+1 CHIL @I297@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 13:54:19
+0 @F67@ FAM
+1 HUSB @I298@
+1 WIFE @I202@
+1 CHIL Диана Гаглоева
+1 CHIL Давид Гаглоев
+1 CHIL @I299@
+1 CHIL @I300@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 13:55:14
+0 @F67b@ FAM
+1 WIFE Диана Гаглоева
+1 HUSB Тох Аланович Тебиев
+1 CHIL Алан Тебиев
+1 CHIL Неизвестная Тебиева
+0 @F68@ FAM
+1 HUSB @I205@
+1 WIFE @I304@
+1 CHIL Эдуард Козаев
+1 CHIL Неизвестная1 Козаева
+1 CHIL Неизвестная2 Козаева
+1 CHIL @I305@
+1 CHIL @I306@
+1 CHIL @I307@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 13:57:07
+0 @F69@ FAM
+1 HUSB @I308@
+1 WIFE @I206@
+1 CHIL Илона Джиоева
+1 CHIL Диана Джиоева
+1 CHIL @I309@
+1 CHIL @I310@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 13:58:13
+0 @F69b@ FAM
+1 WIFE Илона Джиоева
+1 HUSB Давид
+1 CHIL София
+1 CHIL Лаура
+0 @F69c@ FAM
+1 WIFE Диана Джиоева
+1 HUSB Арсен
+1 CHIL Мия
+0 @F70@ FAM
+1 HUSB @I316@
+1 WIFE @I207@
+1 CHIL Анжелика Танделова
+1 CHIL Альбина Танделова
+1 CHIL @I317@
+1 CHIL @I318@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 13:59:58
+0 @F70b@ FAM
+1 WIFE Альбина Танделова
+1 CHIL Дана
+0 @F70c@ FAM
+1 WIFE Альбина Танделова
+1 HUSB Морозов
+1 CHIL Даша Морозова
+0 @F71@ FAM
+1 HUSB @I209@
+1 WIFE @I212@
+1 CHIL @I213@
+1 CHIL @I214@
+1 CHIL @I215@
+0 @F72@ FAM
+1 HUSB @I210@
+1 WIFE @I216@
+1 CHIL @I217@
+1 CHIL @I218@
+1 CHIL @I219@
+1 DIV Y
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 18:40:23
+0 @F73@ FAM
+1 HUSB @I210@
+1 WIFE @I220@
+1 CHIL @I221@
+0 @F74@ FAM
+1 WIFE @I211@
+1 HUSB @I222@
+1 CHIL @I223@
+1 DIV Y
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 18:40:10
+0 @F75@ FAM
+1 HUSB @I213@
+1 WIFE @I224@
+1 CHIL @I225@
+1 CHIL @I226@
+1 CHIL @I227@
+0 @F76@ FAM
+1 WIFE @I219@
+1 HUSB @I228@
+1 CHIL @I229@
+0 @F77@ FAM
+1 WIFE @I231@
+1 HUSB @I236@
+1 CHIL @I237@
+1 CHIL @I238@
+0 @F78@ FAM
+1 WIFE @I232@
+1 HUSB @I239@
+1 CHIL @I240@
+1 CHIL @I241@
+1 CHIL @I242@
+0 @F79@ FAM
+1 HUSB @I233@
+1 WIFE @I243@
+1 CHIL @I244@
+0 @F80@ FAM
+1 HUSB @I234@
+1 WIFE @I245@
+1 CHIL @I246@
+1 CHIL @I247@
+1 DIV Y
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 18:20:24
+0 @F81@ FAM
+1 WIFE @I249@
+1 HUSB @I253@
+1 CHIL @I254@
+1 CHIL @I255@
+0 @F82@ FAM
+1 HUSB @I250@
+1 WIFE @I256@
+1 CHIL @I257@
+1 CHIL @I258@
+1 CHIL @I259@
+0 @F83@ FAM
+1 HUSB @I251@
+1 WIFE @I260@
+1 CHIL @I261@
+1 CHIL @I262@
+0 @F84@ FAM
+1 HUSB @I252@
+1 WIFE @I263@
+1 CHIL @I264@
+1 CHIL @I265@
+1 CHIL @I266@
+1 CHIL @I267@
+0 @F85@ FAM
+1 WIFE @I269@
+1 HUSB @I271@
+1 CHIL @I272@
+1 CHIL @I273@
+1 CHIL @I274@
+0 @F86@ FAM
+1 WIFE @I270@
+1 HUSB @I275@
+1 CHIL @I276@
+1 DIV Y
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 18:41:15
+0 @F87@ FAM
+1 WIFE @I270@
+1 HUSB @I277@
+1 CHIL @I278@
+1 DIV Y
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 18:41:18
+0 @F88@ FAM
+1 WIFE @I272@
+1 HUSB @I279@
+1 CHIL @I280@
+0 @F89@ FAM
+1 WIFE @I274@
+1 HUSB @I281@
+0 @F90@ FAM
+1 WIFE @I283@
+1 HUSB @I284@
+1 CHIL @I285@
+1 CHIL @I286@
+1 DIV Y
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 18:40:37
+0 @I96@ FAM
+1 CHIL @I131@
+0 @I288@ INDI
+1 NAME Альма /ДЗУДЦОВА/
+2 GIVN Альма
+2 SURN ДЗУДЦОВА
+1 SEX F
+1 BIRT
+2 DATE 6 MAY 1979
+1 FAMS @F65@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:23:16
+0 @N00001@ NOTE
+1 REFN Non_Duplicates
+1 _VALID Y
+0 @F96@ FAM
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 13:46:46
+0 @I200@ INDI
+1 NAME Эдуард /БАГАЕВ/
+2 GIVN Эдуард
+2 SURN БАГАЕВ
+1 SEX M
+1 BIRT
+2 DATE 16 FEB 1971
+1 FAMC @F57@
+1 FAMS @F65@
+1 TITL дядя,
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:23:44
+0 @I289@ INDI
+1 NAME Артур /БАГАЕВ/
+2 GIVN Артур
+2 SURN БАГАЕВ
+1 SEX M
+1 BIRT
+2 DATE 26 AUG 2004
+1 FAMC @F65@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:24:31
+0 @I290@ INDI
+1 NAME Роберт /БАГАЕВ/
+2 GIVN Роберт
+2 SURN БАГАЕВ
+1 SEX M
+1 BIRT
+2 DATE 7 MAY 2006
+1 FAMC @F65@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:24:16
+0 @I291@ INDI
+1 NAME Виталий /БАГАЕВ/
+2 GIVN Виталий
+2 SURN БАГАЕВ
+1 SEX M
+1 BIRT
+2 DATE 9 AUG 2010
+1 FAMC @F65@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:25:01
+0 @I292@ INDI
+1 NAME Натела /КУСРАЕВА/
+2 GIVN Натела
+2 SURN КУСРАЕВА
+1 SEX F
+1 BIRT
+2 DATE 26 FEB 1983
+1 FAMS @F66@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:25:32
+0 @I293@ INDI
+1 NAME Алина /БАГАЕВА/
+2 GIVN Алина
+2 SURN БАГАЕВА
+1 SEX F
+1 BIRT
+2 DATE 20 JUN 2003
+1 FAMC @F66@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:28:01
+0 @I294@ INDI
+1 NAME Алана /БАГАЕВА/
+2 GIVN Алана
+2 SURN БАГАЕВА
+1 SEX F
+1 BIRT
+2 DATE 13 AUG 2004
+1 FAMC @F66@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:27:37
+0 @I295@ INDI
+1 NAME Валерия /БАГАЕВА/
+2 GIVN Валерия
+2 SURN БАГАЕВА
+1 SEX F
+1 BIRT
+2 DATE 4 OCT 2006
+1 FAMC @F66@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:27:16
+0 @I296@ INDI
+1 NAME Марат /БАГАЕВ/
+2 GIVN Марат
+2 SURN БАГАЕВ
+1 SEX M
+1 BIRT
+2 DATE 3 AUG 2008
+1 FAMC @F66@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:26:58
+0 @I297@ INDI
+1 NAME Сармат /БАГАЕВ/
+2 GIVN Сармат
+2 SURN БАГАЕВ
+1 SEX M
+1 BIRT
+2 DATE 1 JUL 2024
+1 FAMC @F66@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:26:29
+0 @I298@ INDI
+1 NAME Эмзар /ГАГЛОЕВ/
+2 GIVN Эмзар
+2 SURN ГАГЛОЕВ
+1 SEX M
+1 BIRT
+2 DATE 8 OCT 1965
+1 FAMS @F67@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:21:39
+0 @I299@ INDI
+1 NAME Диана /ГАГЛОЕВА/
+2 GIVN Диана
+2 SURN ГАГЛОЕВА
+1 SEX F
+1 BIRT
+2 DATE 12 DEC 1992
+1 FAMC @F67@
+1 FAMS @F97@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:23:57
+0 @I300@ INDI
+1 NAME Давид /ГАГЛОЕВ/
+2 GIVN Давид
+2 SURN ГАГЛОЕВ
+1 SEX M
+1 BIRT
+2 DATE 17 FEB 1998
+1 FAMC @F67@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:22:16
+0 @I301@ INDI
+1 NAME Тох /ТЕБИЕВ/
+2 GIVN Тох
+2 SURN ТЕБИЕВ
+1 SEX M
+1 FAMS @F97@
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 14:06:13
+0 @F97@ FAM
+1 HUSB @I301@
+1 WIFE @I299@
+1 CHIL @I302@
+1 CHIL @I303@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 13:56:05
+0 @I302@ INDI
+1 NAME Алан /ТЕБИЕВ/
+2 GIVN Алан
+2 SURN ТЕБИЕВ
+1 SEX M
+1 BIRT
+2 DATE 27 AUG 2024
+1 FAMC @F97@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:22:28
+0 @I303@ INDI
+1 NAME Анна /ТЕБИЕВА/
+2 GIVN Анна
+2 SURN ТЕБИЕВА
+1 SEX F
+1 BIRT
+2 DATE 20 MAY 2026
+1 FAMC @F97@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:22:57
+0 @I304@ INDI
+1 NAME Марина /ЦХОВРЕБОВА/
+2 GIVN Марина
+2 SURN ЦХОВРЕБОВА
+1 SEX F
+1 FAMS @F68@
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 13:39:01
+0 @I305@ INDI
+1 NAME Эдуард /КОЗАЕВ/
+2 GIVN Эдуард
+2 SURN КОЗАЕВ
+1 SEX M
+1 FAMC @F68@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 08:58:39
+0 @I306@ INDI
+1 NAME Лолита /КОЗАЕВА/
+2 GIVN Лолита
+2 SURN КОЗАЕВА
+1 SEX F
+1 FAMC @F68@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 08:58:15
+0 @I307@ INDI
+1 NAME Виктория /КОЗАЕВА/
+2 GIVN Виктория
+2 SURN КОЗАЕВА
+1 SEX F
+1 FAMC @F68@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 08:58:13
+0 @I308@ INDI
+1 NAME Вахтанг /ДЖИОЕВ/
+2 GIVN Вахтанг
+2 SURN ДЖИОЕВ
+1 SEX M
+1 FAMS @F69@
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 13:38:46
+0 @I309@ INDI
+1 NAME Илона /ДЖИОЕВА/
+2 GIVN Илона
+2 SURN ДЖИОЕВА
+1 SEX F
+1 FAMC @F69@
+1 FAMS @F98@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 08:57:56
+0 @I310@ INDI
+1 NAME Диана /ДЖИОЕВА/
+2 GIVN Диана
+2 SURN ДЖИОЕВА
+1 SEX F
+1 FAMC @F69@
+1 FAMS @F99@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 08:57:53
+0 @I311@ INDI
+1 NAME Давид /ДУЛАЕВ/
+2 GIVN Давид
+2 SURN ДУЛАЕВ
+1 SEX M
+1 FAMS @F98@
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 13:38:39
+0 @F98@ FAM
+1 HUSB @I311@
+1 WIFE @I309@
+1 CHIL @I312@
+1 CHIL @I313@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 13:58:51
+0 @I312@ INDI
+1 NAME София /ДУЛАЕВА/
+2 GIVN София
+2 SURN ДУЛАЕВА
+1 SEX F
+1 FAMC @F98@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 08:57:58
+0 @I313@ INDI
+1 NAME Лаура /ДУЛАЕВА/
+2 GIVN Лаура
+2 SURN ДУЛАЕВА
+1 SEX F
+1 FAMC @F98@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 08:58:11
+0 @I314@ INDI
+1 NAME Арсен /ХУГАЕВ/
+2 GIVN Арсен
+2 SURN ХУГАЕВ
+1 SEX M
+1 FAMS @F99@
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 13:38:33
+0 @F99@ FAM
+1 HUSB @I314@
+1 WIFE @I310@
+1 CHIL @I315@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 13:59:12
+0 @I315@ INDI
+1 NAME Мия /ХУГАЕВА/
+2 GIVN Мия
+2 SURN ХУГАЕВА
+1 SEX F
+1 FAMC @F99@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 08:57:42
+0 @I316@ INDI
+1 NAME Сослан /ТАНДЕЛОВ/
+2 GIVN Сослан
+2 SURN ТАНДЕЛОВ
+1 SEX M
+1 BIRT Y
+1 FAMS @F70@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:17:24
+0 @I317@ INDI
+1 NAME Анжела /ТАНДЕЛОВА/
+2 GIVN Анжела
+2 SURN ТАНДЕЛОВА
+1 SEX F
+1 FAMC @F70@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 08:57:39
+0 @I318@ INDI
+1 NAME Альбина /ТАНДЕЛОВА/
+2 GIVN Альбина
+2 SURN ТАНДЕЛОВА
+1 SEX F
+1 BIRT
+2 DATE 31 OCT 1983
+1 FAMC @F70@
+1 FAMS @F100@
+1 FAMS @F101@
+1 CHAN
+2 DATE 27 MAY 2026
+3 TIME 20:13:23
+0 @I319@ INDI
+1 NAME Олег /ДЗАНТИЕВ/
+2 GIVN Олег
+2 SURN ДЗАНТИЕВ
+1 SEX M
+1 BIRT Y
+1 FAMS @F100@
+1 CHAN
+2 DATE 24 MAY 2026
+3 TIME 10:19:29
+0 @F100@ FAM
+1 HUSB @I319@
+1 WIFE @I318@
+1 CHIL @I320@
+1 DIV Y
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 18:41:44
+0 @I320@ INDI
+1 NAME Дана /ДЗАНТИЕВА/
+2 GIVN Дана
+2 SURN ДЗАНТИЕВА
+1 SEX F
+1 BIRT
+2 DATE 18 AUG 2004
+1 FAMC @F100@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 13:21:20
+0 @I321@ INDI
+1 NAME Игорь /МОРОЗОВ/
+2 GIVN Игорь
+2 SURN МОРОЗОВ
+1 SEX M
+1 BIRT Y
+1 FAMS @F101@
+1 CHAN
+2 DATE 24 MAY 2026
+3 TIME 11:44:32
+0 @F101@ FAM
+1 HUSB @I321@
+1 WIFE @I318@
+1 CHIL @I322@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:01:22
+0 @I322@ INDI
+1 NAME Дарья /МОРОЗОВА/
+2 GIVN Дарья
+2 SURN МОРОЗОВА
+1 SEX F
+1 BIRT
+2 DATE 31 MAR 2013
+1 FAMC @F101@
+1 CHAN
+2 DATE 27 MAY 2026
+3 TIME 20:11:53
+0 @I323@ INDI
+1 NAME /?/
+2 SURN ?
+1 SEX M
+1 FAMS @F102@
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 13:36:21
+0 @F102@ FAM
+1 HUSB @I323@
+1 WIFE @I215@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:01:49
+0 @I324@ INDI
+1 NAME /?/
+2 SURN ?
+1 SEX F
+1 BIRT Y
+1 FAMS @F3@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:19:11
+0 @I325@ INDI
+1 NAME /?/
+2 SURN ?
+1 SEX F
+1 BIRT Y
+1 FAMS @F1@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:19:28
+0 @I326@ INDI
+1 NAME /?/
+2 SURN ?
+1 SEX F
+1 BIRT Y
+1 FAMS @F2@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:19:37
+0 @I327@ INDI
+1 NAME /?/
+2 SURN ?
+1 SEX F
+1 BIRT Y
+1 FAMS @F4@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:19:45
+0 @I328@ INDI
+1 NAME /?/
+2 SURN ?
+1 SEX F
+1 BIRT Y
+1 FAMS @F5@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:19:54
+0 @I329@ INDI
+1 NAME /?/
+2 SURN ?
+1 SEX F
+1 BIRT Y
+1 FAMS @F15@
+1 CHAN
+2 DATE 22 MAY 2026
+3 TIME 14:21:06
+0 @I330@ INDI
+1 NAME Алана /ГАГИЕВА/
+2 GIVN Алана
+2 SURN ГАГИЕВА
+1 SEX F
+1 BIRT
+2 DATE 2 DEC 1995
+1 FAMC @F50@
+1 FAMS @F105@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:48:47
+0 @I331@ INDI
+1 NAME Владимир /ГАГИЕВ/
+2 GIVN Владимир
+2 SURN ГАГИЕВ
+1 SEX M
+1 BIRT
+2 DATE 2 NOV 1998
+1 FAMC @F50@
+1 FAMS @F104@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:50:31
+0 @I332@ INDI
+1 NAME Хетаг /ГУБИЕВ/
+2 GIVN Хетаг
+2 SURN ГУБИЕВ
+1 SEX M
+1 BIRT
+2 DATE 30 MAR 1998
+1 FAMS @F103@
+1 CHAN
+2 DATE 27 MAY 2026
+3 TIME 21:13:50
+0 @F103@ FAM
+1 HUSB @I332@
+1 WIFE @I184@
+1 CHIL @I333@
+1 CHAN
+2 DATE 24 MAY 2026
+3 TIME 10:43:18
+0 @I333@ INDI
+1 NAME Алан /ГУБИЕВ/
+2 GIVN Алан
+2 SURN ГУБИЕВ
+1 SEX M
+1 BIRT
+2 DATE 6 JAN 2026
+1 FAMC @F103@
+1 CHAN
+2 DATE 27 MAY 2026
+3 TIME 21:29:36
+0 @I334@ INDI
+1 NAME Вика /ТЕДЕЕВА/
+2 GIVN Вика
+2 SURN ТЕДЕЕВА
+1 SEX F
+1 BIRT
+2 DATE 31 JAN 2000
+1 FAMS @F104@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:50:43
+0 @F104@ FAM
+1 HUSB @I331@
+1 WIFE @I334@
+1 CHIL @I335@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 15:09:15
+0 @I335@ INDI
+1 NAME Георгий /ГАГИЕВ/
+2 GIVN Георгий
+2 SURN ГАГИЕВ
+1 SEX M
+1 BIRT
+2 DATE 5 JAN 2024
+1 FAMC @F104@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:50:57
+0 @I336@ INDI
+1 NAME Олег /ДЖАБИЕВ/
+2 GIVN Олег
+2 SURN ДЖАБИЕВ
+1 SEX M
+1 BIRT
+2 DATE 3 NOV 1994
+1 FAMS @F105@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:50:00
+0 @F105@ FAM
+1 HUSB @I336@
+1 WIFE @I330@
+1 CHIL @I337@
+1 CHAN
+2 DATE 25 MAY 2026
+3 TIME 15:09:49
+0 @I337@ INDI
+1 NAME Ева /ДЖАБИЕВА/
+2 GIVN Ева
+2 SURN ДЖАБИЕВА
+1 SEX F
+1 BIRT
+2 DATE 7 FEB 2025
+1 FAMC @F105@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:50:15
+0 @I338@ INDI
+1 NAME /?/
+2 SURN ?
+1 SEX M
+1 FAMS @F106@
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 13:36:06
+0 @F106@ FAM
+1 HUSB @I338@
+1 WIFE @I174@
+1 CHIL @I339@
+1 CHIL @I340@
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 22:06:29
+0 @I339@ INDI
+1 NAME /?/
+2 SURN ?
+1 SEX
+1 FAMC @F106@
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 13:36:09
+0 @I340@ INDI
+1 NAME /?/
+2 SURN ?
+1 SEX
+1 FAMC @F106@
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 13:36:17
+0 @I341@ INDI
+1 NAME /?/
+2 SURN ?
+1 SEX F
+1 FAMS @F107@
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 13:36:27
+0 @F107@ FAM
+1 HUSB @I240@
+1 WIFE @I341@
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 22:07:04
+0 @I342@ INDI
+1 NAME /?/
+2 SURN ?
+1 SEX M
+1 FAMS @F108@
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 13:36:30
+0 @F108@ FAM
+1 HUSB @I342@
+1 WIFE @I241@
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 22:07:14
+0 @I343@ INDI
+1 NAME /?/
+2 SURN ?
+1 SEX M
+1 FAMS @F109@
+1 CHAN
+2 DATE 30 MAY 2026
+3 TIME 13:36:33
+0 @F109@ FAM
+1 HUSB @I343@
+1 WIFE @I242@
+1 CHAN
+2 DATE 28 MAY 2026
+3 TIME 22:07:24
+0 @I344@ INDI
+1 NAME Зарина /ТИГИЕВА/
+2 GIVN Зарина
+2 SURN ТИГИЕВА
+1 SEX F
+1 BIRT
+2 DATE 7 JUN 1995
+1 FAMS @F110@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:44:14
+0 @F110@ FAM
+1 HUSB @I162@
+1 WIFE @I344@
+1 CHIL @I345@
+1 CHIL @I346@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:45:51
+0 @I345@ INDI
+1 NAME Аслан /ПЛИЕВ/
+2 GIVN Аслан
+2 SURN ПЛИЕВ
+1 SEX M
+1 BIRT
+2 DATE 6 SEP 2016
+1 FAMC @F110@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:44:57
+0 @I346@ INDI
+1 NAME Алана /ПЛИЕВА/
+2 GIVN Алана
+2 SURN ПЛИЕВА
+1 SEX F
+1 BIRT
+2 DATE 18 JAN 2020
+1 FAMC @F110@
+1 CHAN
+2 DATE 29 MAY 2026
+3 TIME 22:46:04
+0 TRLR
