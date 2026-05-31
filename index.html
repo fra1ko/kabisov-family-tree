@@ -440,30 +440,42 @@ body{
     }
 }
 
-    @media (orientation: landscape) and (max-width: 1200px){
-
-    .stats{
-        display:none;
-    }
-
-    #searchInput{
-        width:140px;
-    }
-
-    #events{
-        width:140px;
-    }
+@media (orientation: landscape) and (max-width: 1200px){
 
     #headerCenter{
-        padding:10px 16px;
+
+        top:10px !important;
+        left:50% !important;
+
+        transform:translateX(-50%) !important;
+
+        width:260px !important;
+
+        padding:10px 16px !important;
+
+        margin:0 !important;
     }
 
-    #headerCenter h1{
-        font-size:18px;
+    .stats{
+        display:none !important;
     }
 
     #headerCenter p{
-        display:none;
+        display:none !important;
+    }
+
+    #headerCenter h1{
+        font-size:18px !important;
+    }
+
+    #searchInput{
+        width:140px !important;
+    }
+
+    #events{
+        top:10px !important;
+        bottom:auto !important;
+        width:140px !important;
     }
 }
 
