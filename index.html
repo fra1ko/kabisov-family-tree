@@ -1041,32 +1041,31 @@ nodes.each(function(d){
             const spouseGroup =
                 zoomLayer
                 .append('g')
-                .attr(
-                    'class',
-                    `
-                    ${
-                        spouse.sex === 'F'
-                            ? 'female'
-                            : spouse.sex === 'M'
-                                ? 'male'
-                                : 'unknown'
-                    }
-                    ${
-                        spouse.death
-                            ? 'deceased'
-                            : ''
-                    }
-                    `
-                )
-                .attr(
-                    'transform',
-                    `
-                    translate(
-                        ${d.x + offsetX},
-                        ${d.y + offsetY}
-                    )
-                    `
-                );
+.attr(
+    'class',
+    `
+    node spouse-node
+    ${
+        spouse.sex === 'F'
+            ? 'female'
+            : spouse.sex === 'M'
+                ? 'male'
+                : 'unknown'
+    }
+    ${
+        spouse.death
+            ? 'deceased'
+            : ''
+    }
+    `
+)
+.datum({
+    data:{
+        id:spouse.id
+    },
+    x:d.x + offsetX,
+    y:d.y + offsetY
+})
 
 spouseGroup
     .append('rect')
