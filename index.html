@@ -591,7 +591,7 @@ svg.call(zoom);
 const treeLayout = d3.tree()
     .nodeSize(
         isMobile
-            ? [420, 240]
+            ? [520, 240]
             : [700, 280]
     );
 
@@ -1022,7 +1022,7 @@ nodes.each(function(d){
             if(spousesCount === 1){
 
                 offsetX =
-                    isMobile ? 250 : 360;
+                    isMobile ? 220 : 360;
 
                 offsetY = 0;
             }
@@ -1030,7 +1030,7 @@ nodes.each(function(d){
             else{
 
                 offsetX =
-                    isMobile ? 270 : 390;
+                    isMobile ? 240 : 390;
 
                 offsetY =
                     index % 2 === 0
@@ -1269,7 +1269,7 @@ function focusSearchResult(){
     width / 2 - (d.x * scale);
 
     const y =
-        height * 0.25 - (d.y * scale);
+        height * 0.5 - (d.y * scale);
 
     const transform =
         d3.zoomIdentity
