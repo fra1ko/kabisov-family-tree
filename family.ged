@@ -8,8 +8,8 @@
 2 CORP Команда Ancestris
 3 ADDR https://www.ancestris.org
 1 DEST ANY
-1 DATE 30 MAY 2026
-2 TIME 14:06:34
+1 DATE 1 JUN 2026
+2 TIME 12:33:44
 1 SUBM @SUB1@
 1 FILE Дерево Кабисовых_главное.ged
 1 CHAR UTF-8
@@ -55,12 +55,14 @@
 2 GIVN Майор
 2 SURN КАБИСОВ
 1 SEX M
+1 DEAT
+2 DATE 19 JAN 1972
 1 FAMC @F1@
 1 FAMS @F40@
-1 TITL прапрадедушка, 
+1 TITL прапрадедушка,
 1 CHAN
-2 DATE 22 MAY 2026
-3 TIME 14:17:24
+2 DATE 30 MAY 2026
+3 TIME 22:36:45
 0 @I_D1@ INDI
 1 NAME ? /КАБИСОВА/
 2 GIVN ?
@@ -1503,10 +1505,12 @@
 2 GIVN Маро
 2 SURN ТЕДЕЕВА
 1 SEX F
+1 DEAT
+2 DATE 1956
 1 FAMS @F40@
 1 CHAN
-2 DATE 22 MAY 2026
-3 TIME 14:17:24
+2 DATE 30 MAY 2026
+3 TIME 22:36:50
 0 @I147@ INDI
 1 NAME Георгий /КАБИСОВ/
 2 GIVN Георгий
@@ -2005,10 +2009,12 @@
 2 GIVN Дуня
 2 SURN ТАДТАЕВА
 1 SEX F
+1 DEAT
+2 DATE 9 MAR 1993
 1 FAMS @F45@
 1 CHAN
-2 DATE 24 MAY 2026
-3 TIME 10:38:20
+2 DATE 30 MAY 2026
+3 TIME 22:36:19
 0 @I191@ INDI
 1 NAME Луиза /КАБИСОВА/
 2 GIVN Луиза
@@ -2887,13 +2893,15 @@
 2 GIVN Ляна
 2 SURN ГАГЛОЕВА
 1 SEX F
+1 BIRT
+2 DATE 9 JAN 1973
 1 FAMC @F63@
 1 FAMS @F86@
 1 FAMS @F87@
 1 TITL тётя,
 1 CHAN
-2 DATE 28 MAY 2026
-3 TIME 18:40:42
+2 DATE 1 JUN 2026
+3 TIME 12:32:33
 0 @I271@ INDI
 1 NAME Славик /ТАНДЕЛОВ/
 2 GIVN Славик
@@ -2957,11 +2965,13 @@
 2 GIVN Натали
 2 SURN ГАГЛОЕВА
 1 SEX F
+1 BIRT
+2 DATE 22 JUN 1999
 1 FAMC @F86@
 1 TITL сестра,
 1 CHAN
-2 DATE 24 MAY 2026
-3 TIME 10:14:59
+2 DATE 1 JUN 2026
+3 TIME 12:32:54
 0 @I277@ INDI
 1 NAME Владислав /АЙДАРОВ/
 2 GIVN Владислав
@@ -2972,15 +2982,17 @@
 2 DATE 25 MAY 2026
 3 TIME 15:20:54
 0 @I278@ INDI
-1 NAME Мадина /АЙДАРОВА/
+1 NAME Мадина /ГАГЛОЕВА/
 2 GIVN Мадина
-2 SURN АЙДАРОВА
+2 SURN ГАГЛОЕВА
 1 SEX F
+1 BIRT
+2 DATE 20 JUN 2012
 1 FAMC @F87@
 1 TITL сестра,
 1 CHAN
-2 DATE 24 MAY 2026
-3 TIME 10:15:22
+2 DATE 1 JUN 2026
+3 TIME 12:33:16
 0 @I279@ INDI
 1 NAME Урузмаг /ДЖИОЕВ/
 2 GIVN Урузмаг
