@@ -1285,14 +1285,22 @@ function focusSearchResult(){
         return;
     }
 
+    const screenWidth =
+        window.innerWidth;
+
+    const screenHeight =
+        window.innerHeight;
+
     const scale =
-        isMobile ? 1.05 : 1.1;
+        isMobile ? 1.15 : 1.1;
 
     const x =
-        width / 2 - (xPos * scale);
+        screenWidth / 2 -
+        (xPos * scale);
 
     const y =
-        height * 0.50 - (yPos * scale);
+        screenHeight * 0.80 -
+        (yPos * scale);
 
     const transform =
         d3.zoomIdentity
