@@ -563,6 +563,8 @@ let families = {};
 let searchResults = [];
 let currentSearchIndex = 0;
 
+let spousePositions = {};
+
 const svg = d3.select('#tree')
     .append('svg')
     .attr('width', width)
@@ -881,6 +883,8 @@ function renderTree(data){
 
     zoomLayer.selectAll('*').remove();
 
+    spousePositions = {};
+
     const root = d3.hierarchy(data);
 
     treeLayout(root);
@@ -1041,31 +1045,37 @@ nodes.each(function(d){
             const spouseGroup =
                 zoomLayer
                 .append('g')
-.attr(
-    'class',
-    `
-    node spouse-node
-    ${
-        spouse.sex === 'F'
-            ? 'female'
-            : spouse.sex === 'M'
-                ? 'male'
-                : 'unknown'
-    }
-    ${
-        spouse.death
-            ? 'deceased'
-            : ''
-    }
-    `
-)
-.datum({
-    data:{
-        id:spouse.id
-    },
-    x:d.x + offsetX,
-    y:d.y + offsetY
-})
+                .attr(
+                    'class',
+                    `
+                    ${
+                        spouse.sex === 'F'
+                            ? 'female'
+                            : spouse.sex === 'M'
+                                ? 'male'
+                                : 'unknown'
+                    }
+                    ${
+                        spouse.death
+                            ? 'deceased'
+                            : ''
+                    }
+                    `
+                )
+                .attr(
+                    'transform',
+                    `
+                    translate(
+                        ${d.x + offsetX},
+                        ${d.y + offsetY}
+                    )
+                    `
+                );
+
+spousePositions[spouse.id] = {
+    x: d.x + offsetX,
+    y: d.y + offsetY
+};
 
 spouseGroup
     .append('rect')
@@ -1250,25 +1260,39 @@ function focusSearchResult(){
     const id =
         searchResults[currentSearchIndex];
 
+    let xPos;
+    let yPos;
+
     const node =
         d3.selectAll('.node')
-        .filter(d => d.data.id === id);
+        .filter(d => d?.data?.id === id);
 
-    if(node.empty()) return;
+    if(!node.empty()){
 
-    const d = node.datum();
+        const d = node.datum();
 
-    const scale = 
+        xPos = d.x;
+        yPos = d.y;
+    }
+
+    else if(spousePositions[id]){
+
+        xPos = spousePositions[id].x;
+        yPos = spousePositions[id].y;
+    }
+
+    else{
+        return;
+    }
+
+    const scale =
         isMobile ? 1.05 : 1.1;
 
-    const topOffset =
-        isMobile ? 220 : 0;
-
     const x =
-    width / 2 - (d.x * scale);
+        width / 2 - (xPos * scale);
 
     const y =
-    height / 2 - (d.y * scale);
+        height * 0.65 - (yPos * scale);
 
     const transform =
         d3.zoomIdentity
