@@ -1478,6 +1478,18 @@ async function loadDefaultGED(){
 
         createEvents();
 
+        if(window.innerWidth < 768){
+
+    setTimeout(()=>{
+
+        document
+            .querySelector('.stats')
+            ?.style.setProperty('display', 'none');
+
+    }, 5000);
+
+}
+
     }catch(err){
 
         console.error(err);
