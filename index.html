@@ -889,6 +889,18 @@ function renderTree(data){
 
     treeLayout(root);
 
+    const nodesList = root.descendants();
+
+const minX = d3.min(nodesList, d => d.x);
+const maxX = d3.max(nodesList, d => d.x);
+const minY = d3.min(nodesList, d => d.y);
+const maxY = d3.max(nodesList, d => d.y);
+
+zoom.translateExtent([
+    [minX - 800, minY - 400],
+    [maxX + 800, maxY + 800]
+]);
+
     document.getElementById('membersCount')
         .textContent =
             Object.keys(individuals).length;
