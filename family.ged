@@ -8,8 +8,8 @@
 2 CORP Команда Ancestris
 3 ADDR https://www.ancestris.org
 1 DEST ANY
-1 DATE 5 JUN 2026
-2 TIME 22:57:51
+1 DATE 6 JUN 2026
+2 TIME 09:01:51
 1 SUBM @SUB1@
 1 FILE Дерево Кабисовых_главное.ged
 1 CHAR UTF-8
@@ -2288,12 +2288,14 @@
 2 GIVN Валентина
 2 SURN КАБИСОВА
 1 SEX F
+1 BIRT
+2 DATE 4 SEP 1973
 1 FAMC @F60@
 1 FAMS @F74@
 1 TITL тётя,
 1 CHAN
-2 DATE 28 MAY 2026
-3 TIME 18:40:10
+2 DATE 6 JUN 2026
+3 TIME 09:01:22
 0 @I212@ INDI
 1 NAME Лариса /ГАБАРАЕВА/
 2 GIVN Лариса
@@ -2424,11 +2426,13 @@
 2 GIVN Георгий
 2 SURN ЧАЧХИАНИ
 1 SEX M
+1 BIRT
+2 DATE 4 APR 2001
 1 FAMC @F74@
 1 TITL брат,
 1 CHAN
-2 DATE 28 MAY 2026
-3 TIME 18:37:34
+2 DATE 6 JUN 2026
+3 TIME 09:01:37
 0 @I224@ INDI
 1 NAME Анжелика /САВЛОХОВА/
 2 GIVN Анжелика
