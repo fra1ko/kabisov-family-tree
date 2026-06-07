@@ -9,7 +9,7 @@
 3 ADDR https://www.ancestris.org
 1 DEST ANY
 1 DATE 7 JUN 2026
-2 TIME 11:51:26
+2 TIME 14:08:27
 1 SUBM @SUB1@
 1 FILE Дерево Кабисовых_главное.ged
 1 CHAR UTF-8
@@ -4488,7 +4488,8 @@
 2 DATE 5 JUN 2026
 3 TIME 22:45:45
 0 @I348@ INDI
-1 NAME /ДЖИОЕВА/
+1 NAME Ева /ДЖИОЕВА/
+2 GIVN Ева
 2 SURN ДЖИОЕВА
 1 SEX F
 1 BIRT
@@ -4496,5 +4497,5 @@
 1 FAMC @F88@
 1 CHAN
 2 DATE 7 JUN 2026
-3 TIME 11:23:52
+3 TIME 14:08:18
 0 TRLR
