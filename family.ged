@@ -8,8 +8,8 @@
 2 CORP Команда Ancestris
 3 ADDR https://www.ancestris.org
 1 DEST ANY
-1 DATE 7 JUN 2026
-2 TIME 14:08:27
+1 DATE 11 JUN 2026
+2 TIME 11:09:08
 1 SUBM @SUB1@
 1 FILE Дерево Кабисовых_главное.ged
 1 CHAR UTF-8
@@ -2749,10 +2749,12 @@
 2 GIVN Давид
 2 SURN КОБЕСОВ
 1 SEX M
+1 BIRT
+2 DATE 24 MAR 1979
 1 FAMS @F81@
 1 CHAN
-2 DATE 24 MAY 2026
-3 TIME 10:26:34
+2 DATE 11 JUN 2026
+3 TIME 07:46:22
 0 @I254@ INDI
 1 NAME Амина /КОБЕСОВА/
 2 GIVN Амина
