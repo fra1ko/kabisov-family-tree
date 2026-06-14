@@ -309,6 +309,53 @@ body{
     fill:#e4e4e7;
 }
 
+#miniMap{
+    position:fixed;
+
+    left:16px;
+    bottom:16px;
+
+    width:220px;
+    height:140px;
+
+    z-index:1000;
+
+    border-radius:18px;
+
+    background:rgba(39,39,42,.82);
+
+    backdrop-filter:blur(12px);
+
+    overflow:hidden;
+
+    border:1px solid rgba(255,255,255,.08);
+}
+
+#miniMapSvg{
+    width:100%;
+    height:100%;
+}
+
+#miniViewport{
+    position:absolute;
+
+    border:2px solid #60a5fa;
+
+    background:rgba(96,165,250,.12);
+
+    pointer-events:none;
+}
+
+@media(max-width:768px){
+
+    #miniMap{
+        width:150px;
+        height:95px;
+        left:10px;
+        bottom:10px;
+    }
+}
+
 /* MOBILE */
 
 @media(max-width:900px){
@@ -550,6 +597,11 @@ body{
 
 <div id="tree"></div>
 
+<div id="miniMap">
+    <svg id="miniMapSvg"></svg>
+    <div id="miniViewport"></div>
+</div>
+
 <script>
 
 const width = window.innerWidth;
@@ -572,6 +624,9 @@ const svg = d3.select('#tree')
 
 const zoomLayer = svg.append('g');
 
+let miniMapScale = 1;
+let treeBounds = null;
+
 const zoom = d3.zoom()
     .scaleExtent([0.15, 2.5])
     .filter((event)=>{
@@ -582,9 +637,43 @@ const zoom = d3.zoom()
             event.type === 'touchmove'
         );
     })
-    .on('zoom', (event)=>{
-        zoomLayer.attr('transform', event.transform);
-    });
+.on('zoom', (event)=>{
+
+    zoomLayer.attr(
+        'transform',
+        event.transform
+    );
+
+    if(!treeBounds) return;
+
+    const viewport =
+        document.getElementById(
+            'miniViewport'
+        );
+
+    const scale =
+        event.transform.k;
+
+    const visibleWidth =
+        width / scale;
+
+    const visibleHeight =
+        height / scale;
+
+    viewport.style.width =
+        `${visibleWidth * miniMapScale}px`;
+
+    viewport.style.height =
+        `${visibleHeight * miniMapScale}px`;
+
+    viewport.style.left =
+        `${(-event.transform.x / scale - treeBounds.minX)
+            * miniMapScale + 16}px`;
+
+    viewport.style.top =
+        `${(-event.transform.y / scale - treeBounds.minY)
+            * miniMapScale + 16}px`;
+});
 
 svg.call(zoom);
 
@@ -888,6 +977,8 @@ function renderTree(data){
     const root = d3.hierarchy(data);
 
     treeLayout(root);
+
+    updateMiniMap(root);
 
     const nodesList = root.descendants();
 
@@ -1219,6 +1310,63 @@ if(spouse.death){
     );
 }
 
+function updateMiniMap(root){
+
+    const miniSvg =
+        d3.select('#miniMapSvg');
+
+    miniSvg.selectAll('*').remove();
+
+    const nodes =
+        root.descendants();
+
+    const minX =
+        d3.min(nodes,d=>d.x);
+
+    const maxX =
+        d3.max(nodes,d=>d.x);
+
+    const minY =
+        d3.min(nodes,d=>d.y);
+
+    const maxY =
+        d3.max(nodes,d=>d.y);
+
+    treeBounds = {
+        minX,
+        maxX,
+        minY,
+        maxY
+    };
+
+    const miniWidth = 220;
+    const miniHeight = 140;
+
+    miniMapScale =
+        Math.min(
+            miniWidth/(maxX-minX+500),
+            miniHeight/(maxY-minY+500)
+        );
+
+    miniSvg
+        .selectAll('circle')
+        .data(nodes)
+        .enter()
+        .append('circle')
+        .attr(
+            'cx',
+            d =>
+                (d.x-minX)*miniMapScale+20
+        )
+        .attr(
+            'cy',
+            d =>
+                (d.y-minY)*miniMapScale+20
+        )
+        .attr('r',2)
+        .attr('fill','#ffffff');
+}
+
 /* SEARCH */
 
 function searchPerson(){
@@ -1513,6 +1661,44 @@ async function loadDefaultGED(){
 }
 
 loadDefaultGED();
+
+document
+.getElementById('miniMap')
+.addEventListener('click',(e)=>{
+
+    if(!treeBounds) return;
+
+    const rect =
+        e.currentTarget
+        .getBoundingClientRect();
+
+    const x =
+        (e.clientX-rect.left)
+        / miniMapScale
+        + treeBounds.minX;
+
+    const y =
+        (e.clientY-rect.top)
+        / miniMapScale
+        + treeBounds.minY;
+
+    const scale =
+        d3.zoomTransform(
+            svg.node()
+        ).k;
+
+    svg.transition()
+        .duration(400)
+        .call(
+            zoom.transform,
+            d3.zoomIdentity
+                .translate(
+                    width/2 - x*scale,
+                    height/2 - y*scale
+                )
+                .scale(scale)
+        );
+});
 
 </script>
 
