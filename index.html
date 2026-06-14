@@ -309,51 +309,34 @@ body{
     fill:#e4e4e7;
 }
 
-#miniMap{
+#treeNavigator{
+
     position:fixed;
 
-    left:16px;
-    bottom:16px;
+    left:50%;
+    bottom:20px;
 
-    width:220px;
-    height:140px;
+    transform:translateX(-50%);
 
-    z-index:1000;
+    width:min(900px,80vw);
+
+    z-index:9999;
+
+    padding:12px 20px;
 
     border-radius:18px;
 
-    background:rgba(39,39,42,.82);
+    background:rgba(39,39,42,.85);
 
     backdrop-filter:blur(12px);
-
-    overflow:hidden;
-
-    border:1px solid rgba(255,255,255,.08);
 }
 
-#miniMapSvg{
+#treeSlider{
+
     width:100%;
-    height:100%;
-}
+    height:16px;
 
-#miniViewport{
-    position:absolute;
-
-    border:2px solid #60a5fa;
-
-    background:rgba(96,165,250,.12);
-
-    pointer-events:none;
-}
-
-@media(max-width:768px){
-
-    #miniMap{
-        width:150px;
-        height:95px;
-        left:10px;
-        bottom:10px;
-    }
+    cursor:pointer;
 }
 
 /* MOBILE */
@@ -597,9 +580,14 @@ body{
 
 <div id="tree"></div>
 
-<div id="miniMap">
-    <svg id="miniMapSvg"></svg>
-    <div id="miniViewport"></div>
+<div id="treeNavigator">
+    <input
+        type="range"
+        id="treeSlider"
+        min="0"
+        max="1000"
+        value="500"
+    >
 </div>
 
 <script>
@@ -624,8 +612,7 @@ const svg = d3.select('#tree')
 
 const zoomLayer = svg.append('g');
 
-let miniMapScale = 1;
-let treeBounds = null;
+let currentTransform = d3.zoomIdentity;
 
 const zoom = d3.zoom()
     .scaleExtent([0.15, 2.5])
@@ -639,40 +626,14 @@ const zoom = d3.zoom()
     })
 .on('zoom', (event)=>{
 
+    currentTransform = event.transform;
+
     zoomLayer.attr(
         'transform',
-        event.transform
+        currentTransform
     );
 
-    if(!treeBounds) return;
-
-    const viewport =
-        document.getElementById(
-            'miniViewport'
-        );
-
-    const scale =
-        event.transform.k;
-
-    const visibleWidth =
-        width / scale;
-
-    const visibleHeight =
-        height / scale;
-
-    viewport.style.width =
-        `${visibleWidth * miniMapScale}px`;
-
-    viewport.style.height =
-        `${visibleHeight * miniMapScale}px`;
-
-    viewport.style.left =
-        `${(-event.transform.x / scale - treeBounds.minX)
-            * miniMapScale + 16}px`;
-
-    viewport.style.top =
-        `${(-event.transform.y / scale - treeBounds.minY)
-            * miniMapScale + 16}px`;
+    updateSlider();
 });
 
 svg.call(zoom);
@@ -686,6 +647,19 @@ const treeLayout = d3.tree()
             : [700, 280]
     );
 
+function updateSlider(){
+
+    const slider =
+        document.getElementById('treeSlider');
+
+    if(!slider) return;
+
+    slider.value =
+        Math.round(
+            currentTransform.x + 500
+        );
+}
+    
 /* PARSE */
 
 function parseGEDCOM(text){
@@ -977,8 +951,6 @@ function renderTree(data){
     const root = d3.hierarchy(data);
 
     treeLayout(root);
-
-    updateMiniMap(root);
 
     const nodesList = root.descendants();
 
@@ -1310,63 +1282,6 @@ if(spouse.death){
     );
 }
 
-function updateMiniMap(root){
-
-    const miniSvg =
-        d3.select('#miniMapSvg');
-
-    miniSvg.selectAll('*').remove();
-
-    const nodes =
-        root.descendants();
-
-    const minX =
-        d3.min(nodes,d=>d.x);
-
-    const maxX =
-        d3.max(nodes,d=>d.x);
-
-    const minY =
-        d3.min(nodes,d=>d.y);
-
-    const maxY =
-        d3.max(nodes,d=>d.y);
-
-    treeBounds = {
-        minX,
-        maxX,
-        minY,
-        maxY
-    };
-
-    const miniWidth = 220;
-    const miniHeight = 140;
-
-    miniMapScale =
-        Math.min(
-            miniWidth/(maxX-minX+500),
-            miniHeight/(maxY-minY+500)
-        );
-
-    miniSvg
-        .selectAll('circle')
-        .data(nodes)
-        .enter()
-        .append('circle')
-        .attr(
-            'cx',
-            d =>
-                (d.x-minX)*miniMapScale+20
-        )
-        .attr(
-            'cy',
-            d =>
-                (d.y-minY)*miniMapScale+20
-        )
-        .attr('r',2)
-        .attr('fill','#ffffff');
-}
-
 /* SEARCH */
 
 function searchPerson(){
@@ -1636,6 +1551,30 @@ async function loadDefaultGED(){
 
         renderTree(treeData);
 
+        const slider =
+    document.getElementById('treeSlider');
+
+slider.addEventListener('input', e=>{
+
+    const newX =
+        parseInt(e.target.value) - 500;
+
+    const transform =
+        d3.zoomIdentity
+            .translate(
+                newX,
+                currentTransform.y
+            )
+            .scale(
+                currentTransform.k
+            );
+
+    svg.call(
+        zoom.transform,
+        transform
+    );
+});
+
         createEvents();
 
         if(window.innerWidth < 768){
@@ -1661,44 +1600,6 @@ async function loadDefaultGED(){
 }
 
 loadDefaultGED();
-
-document
-.getElementById('miniMap')
-.addEventListener('click',(e)=>{
-
-    if(!treeBounds) return;
-
-    const rect =
-        e.currentTarget
-        .getBoundingClientRect();
-
-    const x =
-        (e.clientX-rect.left)
-        / miniMapScale
-        + treeBounds.minX;
-
-    const y =
-        (e.clientY-rect.top)
-        / miniMapScale
-        + treeBounds.minY;
-
-    const scale =
-        d3.zoomTransform(
-            svg.node()
-        ).k;
-
-    svg.transition()
-        .duration(400)
-        .call(
-            zoom.transform,
-            d3.zoomIdentity
-                .translate(
-                    width/2 - x*scale,
-                    height/2 - y*scale
-                )
-                .scale(scale)
-        );
-});
 
 </script>
 
