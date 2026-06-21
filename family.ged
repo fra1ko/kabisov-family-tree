@@ -9,7 +9,7 @@
 3 ADDR https://www.ancestris.org
 1 DEST ANY
 1 DATE 21 JUN 2026
-2 TIME 12:43:50
+2 TIME 13:42:53
 1 SUBM @SUB1@
 1 FILE family.ged
 1 CHAR UTF-8
@@ -685,16 +685,18 @@
 2 DATE 22 MAY 2026
 3 TIME 14:17:24
 0 @I64@ INDI
-1 NAME Славик /БАГАЕВ/
-2 GIVN Славик
+1 NAME Вячеслав /БАГАЕВ/
+2 GIVN Вячеслав
 2 SURN БАГАЕВ
 1 SEX M
+1 BIRT
+2 DATE 6 NOV 1972
 1 FAMC @F17@
 1 FAMS @F22@
-1 TITL дядя, 
+1 TITL дядя,
 1 CHAN
-2 DATE 22 MAY 2026
-3 TIME 14:17:24
+2 DATE 21 JUN 2026
+3 TIME 13:42:48
 0 @I65@ INDI
 1 NAME Тома /АБАЕВА/
 2 GIVN Тома
@@ -749,20 +751,24 @@
 2 GIVN Николай
 2 SURN МЕДОЕВ
 1 SEX M
+1 BIRT
+2 DATE 1 JAN 1959
 1 FAMS @F20@
 1 CHAN
-2 DATE 22 MAY 2026
-3 TIME 14:17:24
+2 DATE 21 JUN 2026
+3 TIME 13:33:48
 0 @I71@ INDI
 1 NAME Алан /МЕДОЕВ/
 2 GIVN Алан
 2 SURN МЕДОЕВ
 1 SEX M
+1 BIRT
+2 DATE 13 JAN 1986
 1 FAMC @F20@
-1 TITL брат, 
+1 TITL брат,
 1 CHAN
-2 DATE 22 MAY 2026
-3 TIME 14:17:24
+2 DATE 21 JUN 2026
+3 TIME 13:30:12
 0 @I72@ INDI
 1 NAME Роланд /МЕДОЕВ/
 2 GIVN Роланд
@@ -814,35 +820,29 @@
 2 DATE 22 MAY 2026
 3 TIME 14:17:24
 0 @I77@ INDI
-1 NAME Алина /БАГАЕВА/
-2 GIVN Алина
+1 NAME Марина /БАГАЕВА/
+2 GIVN Марина
 2 SURN БАГАЕВА
 1 SEX F
+1 BIRT
+2 DATE 15 JUN 2005
 1 FAMC @F22@
-1 TITL сестра, 
+1 TITL сестра,
 1 CHAN
-2 DATE 22 MAY 2026
-3 TIME 14:17:24
-0 @I78@ INDI
-1 NAME Балла /БАГАЕВА/
-2 GIVN Балла
-2 SURN БАГАЕВА
-1 SEX F
-1 FAMC @F22@
-1 TITL сестра, 
-1 CHAN
-2 DATE 22 MAY 2026
-3 TIME 14:17:24
+2 DATE 21 JUN 2026
+3 TIME 13:42:23
 0 @I79@ INDI
 1 NAME Дзерасса /БАГАЕВА/
 2 GIVN Дзерасса
 2 SURN БАГАЕВА
 1 SEX F
+1 BIRT
+2 DATE 8 OCT 2011
 1 FAMC @F22@
-1 TITL сестра, 
+1 TITL сестра,
 1 CHAN
-2 DATE 22 MAY 2026
-3 TIME 14:17:24
+2 DATE 21 JUN 2026
+3 TIME 13:42:35
 0 @I80@ INDI
 1 NAME Марина /БЕКОЕВА/
 2 GIVN Марина
@@ -975,11 +975,13 @@
 2 GIVN Сослан
 2 SURN БАЗАЕВ
 1 SEX M
+1 BIRT
+2 DATE 24 FEB 1996
 1 FAMC @F28@
-1 TITL брат, 
+1 TITL брат,
 1 CHAN
-2 DATE 22 MAY 2026
-3 TIME 14:17:24
+2 DATE 21 JUN 2026
+3 TIME 13:27:48
 0 @I93@ INDI
 1 NAME Анжелика /БАЗАЕВА/
 2 GIVN Анжелика
@@ -3360,8 +3362,10 @@
 1 HUSB @I64@
 1 WIFE @I76@
 1 CHIL @I77@
-1 CHIL @I78@
 1 CHIL @I79@
+1 CHAN
+2 DATE 21 JUN 2026
+3 TIME 13:41:07
 0 @F23@ FAM
 1 HUSB @I74@
 1 WIFE @I80@
