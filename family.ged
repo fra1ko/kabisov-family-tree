@@ -9,7 +9,7 @@
 3 ADDR https://www.ancestris.org
 1 DEST ANY
 1 DATE 22 JUN 2026
-2 TIME 11:57:49
+2 TIME 12:12:51
 1 SUBM @SUB1@
 1 FILE family.ged
 1 CHAR UTF-8
@@ -400,12 +400,12 @@
 2 SURN КАБИСОВА
 1 SEX F
 1 BIRT
-2 DATE 7 NOV 2011
+2 DATE 11 JUL 2011
 1 FAMC @F8@
 1 TITL сестра,
 1 CHAN
-2 DATE 21 JUN 2026
-3 TIME 14:55:42
+2 DATE 22 JUN 2026
+3 TIME 12:07:22
 0 @I35@ INDI
 1 NAME Владимир /КАБИСОВ/
 2 GIVN Владимир
@@ -444,12 +444,12 @@
 1 SEX M
 1 FAMS @F10@
 1 CHAN
-2 DATE 22 MAY 2026
-3 TIME 14:17:24
+2 DATE 22 JUN 2026
+3 TIME 11:58:48
 0 @I39@ INDI
-1 NAME Михаил /ХОРОХОРДИН/
+1 NAME Михаил /ХОРОХОРТИН/
 2 GIVN Михаил
-2 SURN ХОРОХОРДИН
+2 SURN ХОРОХОРТИН
 1 SEX M
 1 FAMC @F10@
 1 TITL брат, 
