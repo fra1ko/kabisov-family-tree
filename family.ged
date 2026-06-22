@@ -438,18 +438,18 @@
 2 DATE 22 MAY 2026
 3 TIME 14:17:24
 0 @I38@ INDI
-1 NAME Андрей /ХОРОХОРТИН/
+1 NAME Андрей /ХОРОХОРДИН/
 2 GIVN Андрей
-2 SURN ХОРОХОРТИН
+2 SURN ХОРОХОРДИН
 1 SEX M
 1 FAMS @F10@
 1 CHAN
 2 DATE 22 MAY 2026
 3 TIME 14:17:24
 0 @I39@ INDI
-1 NAME Михаил /ХОРОХОРТИН/
+1 NAME Михаил /ХОРОХОРДИН/
 2 GIVN Михаил
-2 SURN ХОРОХОРТИН
+2 SURN ХОРОХОРДИН
 1 SEX M
 1 FAMC @F10@
 1 TITL брат, 
