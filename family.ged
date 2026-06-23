@@ -9,7 +9,7 @@
 3 ADDR https://www.ancestris.org
 1 DEST ANY
 1 DATE 23 JUN 2026
-2 TIME 09:54:35
+2 TIME 10:06:10
 1 SUBM @SUB1@
 1 FILE family.ged
 1 CHAR UTF-8
@@ -1093,16 +1093,18 @@
 2 DATE 22 MAY 2026
 3 TIME 14:17:24
 0 @I101@ INDI
-1 NAME Аза /КАБИСОВА/
-2 GIVN Аза
+1 NAME Азау /КАБИСОВА/
+2 GIVN Азау
 2 SURN КАБИСОВА
 1 SEX F
+1 BIRT
+2 DATE 1 OCT 1938
 1 FAMC @F27@
 1 FAMS @F32@
-1 TITL бабушка, 
+1 TITL бабушка,
 1 CHAN
-2 DATE 22 MAY 2026
-3 TIME 14:17:24
+2 DATE 23 JUN 2026
+3 TIME 10:05:10
 0 @I102@ INDI
 1 NAME Анна /КАБИСОВА/
 2 GIVN Анна
@@ -1204,16 +1206,16 @@
 2 DATE 22 MAY 2026
 3 TIME 14:17:24
 0 @I112@ INDI
-1 NAME Одисей /БУРАЕВ/
-2 GIVN Одисей
+1 NAME Одиссей /БУРАЕВ/
+2 GIVN Одиссей
 2 SURN БУРАЕВ
 1 SEX M
 1 FAMC @F32@
 1 FAMS @F35@
-1 TITL дядя, 
+1 TITL дядя,
 1 CHAN
-2 DATE 22 MAY 2026
-3 TIME 14:17:24
+2 DATE 23 JUN 2026
+3 TIME 10:05:29
 0 @I113@ INDI
 1 NAME ? /БУРАЕВА/
 2 GIVN ?
@@ -1244,15 +1246,15 @@
 2 DATE 22 MAY 2026
 3 TIME 14:17:24
 0 @I116@ INDI
-1 NAME ? /БУРАЕВ/
-2 GIVN ?
+1 NAME Олег /БУРАЕВ/
+2 GIVN Олег
 2 SURN БУРАЕВ
 1 SEX M
 1 FAMC @F35@
 1 TITL брат,
 1 CHAN
-2 DATE 22 MAY 2026
-3 TIME 14:17:24
+2 DATE 23 JUN 2026
+3 TIME 10:04:38
 0 @I117@ INDI
 1 NAME ? /БУРАЕВ/
 2 GIVN ?
