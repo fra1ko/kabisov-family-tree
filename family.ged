@@ -8,8 +8,8 @@
 2 CORP Команда Ancestris
 3 ADDR https://www.ancestris.org
 1 DEST ANY
-1 DATE 22 JUN 2026
-2 TIME 22:23:47
+1 DATE 23 JUN 2026
+2 TIME 09:54:35
 1 SUBM @SUB1@
 1 FILE family.ged
 1 CHAR UTF-8
@@ -463,9 +463,9 @@
 2 DATE 22 JUN 2026
 3 TIME 22:08:03
 0 @I39@ INDI
-1 NAME Михаил /ХОРОХОРТИН/
+1 NAME Михаил /ХОРОХОРДИН/
 2 GIVN Михаил
-2 SURN ХОРОХОРТИН
+2 SURN ХОРОХОРДИН
 1 SEX M
 1 BIRT
 2 DATE 23 MAY 2013
@@ -473,7 +473,7 @@
 1 TITL брат,
 1 CHAN
 2 DATE 22 JUN 2026
-3 TIME 22:07:35
+3 TIME 22:59:10
 0 @I40@ INDI
 1 NAME Валерий /ТЕДЕЕВ/
 2 GIVN Валерий
@@ -821,27 +821,23 @@
 2 GIVN Сослан
 2 SURN БАГАЕВ
 1 SEX M
-1 BIRT
-2 DATE 29 AUG 1968
 1 FAMC @F21@
 1 FAMS @F23@
 1 TITL брат,
 1 CHAN
-2 DATE 21 JUN 2026
-3 TIME 13:54:43
+2 DATE 22 JUN 2026
+3 TIME 22:41:13
 0 @I75@ INDI
 1 NAME Эльбрус /БАГАЕВ/
 2 GIVN Эльбрус
 2 SURN БАГАЕВ
 1 SEX M
-1 BIRT
-2 DATE 17 JAN 1970
 1 FAMC @F21@
 1 FAMS @F25@
 1 TITL брат,
 1 CHAN
-2 DATE 21 JUN 2026
-3 TIME 14:42:53
+2 DATE 22 JUN 2026
+3 TIME 22:41:11
 0 @I76@ INDI
 1 NAME Светлана /КУТАРОВА/
 2 GIVN Светлана
@@ -967,16 +963,16 @@
 2 DATE 21 JUN 2026
 3 TIME 12:32:15
 0 @I89@ INDI
-1 NAME Белла /?/
+1 NAME Белла /КАСАБИЕВА/
 2 GIVN Белла
-2 SURN ?
+2 SURN КАСАБИЕВА
 1 SEX F
 1 BIRT
 2 DATE 2 APR 1963
 1 FAMS @F26@
 1 CHAN
-2 DATE 21 JUN 2026
-3 TIME 12:31:56
+2 DATE 23 JUN 2026
+3 TIME 09:54:10
 0 @I90@ INDI
 1 NAME Батраз /БАЗАЕВ/
 2 GIVN Батраз
@@ -994,10 +990,12 @@
 2 GIVN Белла
 2 SURN БЕСОЛОВА
 1 SEX F
+1 BIRT
+2 DATE 2 APR 1963
 1 FAMS @F28@
 1 CHAN
-2 DATE 22 MAY 2026
-3 TIME 14:17:24
+2 DATE 23 JUN 2026
+3 TIME 09:54:02
 0 @I92@ INDI
 1 NAME Сослан /БАЗАЕВ/
 2 GIVN Сослан
@@ -3418,6 +3416,10 @@
 1 HUSB @I87@
 1 WIFE @I89@
 1 CHIL @I90@
+1 DIV Y
+1 CHAN
+2 DATE 23 JUN 2026
+3 TIME 09:54:15
 0 @F28@ FAM
 1 HUSB @I88@
 1 WIFE @I91@
