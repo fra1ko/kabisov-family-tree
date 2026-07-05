@@ -8,8 +8,8 @@
 2 CORP Команда Ancestris
 3 ADDR https://www.ancestris.org
 1 DEST ANY
-1 DATE 23 JUN 2026
-2 TIME 18:27:37
+1 DATE 5 JUL 2026
+2 TIME 21:35:29
 1 SUBM @SUB1@
 1 FILE family.ged
 1 CHAR UTF-8
@@ -286,8 +286,8 @@
 2 DATE 22 MAY 2026
 3 TIME 14:17:24
 0 @I24@ INDI
-1 NAME Гриша /КАБИСОВ/
-2 GIVN Гриша
+1 NAME Григорий /КАБИСОВ/
+2 GIVN Григорий
 2 SURN КАБИСОВ
 1 SEX M
 1 BIRT
@@ -296,8 +296,8 @@
 1 FAMS @F14@
 1 TITL дедушка,
 1 CHAN
-2 DATE 22 JUN 2026
-3 TIME 22:14:02
+2 DATE 5 JUL 2026
+3 TIME 21:34:07
 0 @I25@ INDI
 1 NAME Фаризат /КАБИСОВА/
 2 GIVN Фаризат
@@ -577,16 +577,18 @@
 2 DATE 22 JUN 2026
 3 TIME 22:14:18
 0 @I50@ INDI
-1 NAME Акадий /КАБИСОВ/
-2 GIVN Акадий
+1 NAME Аркадий /КАБИСОВ/
+2 GIVN Аркадий
 2 SURN КАБИСОВ
 1 SEX M
+1 BIRT
+2 DATE 27 AUG 1965
 1 FAMC @F14@
 1 FAMS @F16@
-1 TITL дядя, 
+1 TITL дядя,
 1 CHAN
-2 DATE 22 MAY 2026
-3 TIME 14:17:24
+2 DATE 5 JUL 2026
+3 TIME 21:34:00
 0 @I51@ INDI
 1 NAME Алина /КАБИСОВА/
 2 GIVN Алина
@@ -602,44 +604,52 @@
 2 DATE 22 JUN 2026
 3 TIME 22:14:38
 0 @I52@ INDI
-1 NAME Нателла /БОРЦИЕВА/
-2 GIVN Нателла
+1 NAME Натела /БОРЦИЕВА/
+2 GIVN Натела
 2 SURN БОРЦИЕВА
 1 SEX F
+1 BIRT
+2 DATE 16 SEP 1976
 1 FAMS @F16@
 1 CHAN
-2 DATE 22 MAY 2026
-3 TIME 14:17:24
+2 DATE 5 JUL 2026
+3 TIME 21:34:33
 0 @I53@ INDI
 1 NAME Георгий /КАБИСОВ/
 2 GIVN Георгий
 2 SURN КАБИСОВ
 1 SEX M
+1 BIRT
+2 DATE 1 DEC 2002
 1 FAMC @F16@
-1 TITL брат, 
+1 TITL брат,
 1 CHAN
-2 DATE 22 MAY 2026
-3 TIME 14:17:24
+2 DATE 5 JUL 2026
+3 TIME 21:34:52
 0 @I54@ INDI
 1 NAME Виталий /КАБИСОВ/
 2 GIVN Виталий
 2 SURN КАБИСОВ
 1 SEX M
+1 BIRT
+2 DATE 12 MAR 2006
 1 FAMC @F16@
-1 TITL брат, 
+1 TITL брат,
 1 CHAN
-2 DATE 22 MAY 2026
-3 TIME 14:17:24
+2 DATE 5 JUL 2026
+3 TIME 21:35:04
 0 @I55@ INDI
 1 NAME Ева /КАБИСОВА/
 2 GIVN Ева
 2 SURN КАБИСОВА
 1 SEX F
+1 BIRT
+2 DATE 7 JUL 2009
 1 FAMC @F16@
-1 TITL сестра, 
+1 TITL сестра,
 1 CHAN
-2 DATE 22 MAY 2026
-3 TIME 14:17:24
+2 DATE 5 JUL 2026
+3 TIME 21:35:17
 0 @I56@ INDI
 1 NAME Али-Бек /ДЗИДАХАНОВ/
 2 GIVN Али-Бек
@@ -2269,14 +2279,14 @@
 2 DATE 22 MAY 2026
 3 TIME 14:17:24
 0 @I204@ INDI
-1 NAME Володя /КОЗАЕВ/
-2 GIVN Володя
+1 NAME Владимир /КОЗАЕВ/
+2 GIVN Владимир
 2 SURN КОЗАЕВ
 1 SEX M
 1 FAMS @F59@
 1 CHAN
-2 DATE 22 MAY 2026
-3 TIME 14:17:24
+2 DATE 2 JUL 2026
+3 TIME 21:34:03
 0 @I205@ INDI
 1 NAME Руслан /КОЗАЕВ/
 2 GIVN Руслан
@@ -4809,16 +4819,16 @@
 2 DATE 18 JUN 2026
 3 TIME 22:49:36
 0 @I362@ INDI
-1 NAME Толик /КОЗАЕВ/
-2 GIVN Толик
+1 NAME Анатолий /КОЗАЕВ/
+2 GIVN Анатолий
 2 SURN КОЗАЕВ
 1 SEX M
 1 BIRT Y
 1 FAMC @F59@
 1 FAMS @F115@
 1 CHAN
-2 DATE 19 JUN 2026
-3 TIME 11:59:20
+2 DATE 2 JUL 2026
+3 TIME 21:33:53
 0 @I363@ INDI
 1 NAME Белла /ГУССАЛОВА/
 2 GIVN Белла
@@ -4841,22 +4851,24 @@
 2 GIVN Эрик
 2 SURN КОЗАЕВ
 1 SEX M
-1 BIRT Y
+1 BIRT
+2 DATE 14 OCT 1983
 1 FAMC @F115@
 1 FAMS @F116@
 1 CHAN
-2 DATE 19 JUN 2026
-3 TIME 11:59:57
+2 DATE 2 JUL 2026
+3 TIME 21:41:10
 0 @I365@ INDI
 1 NAME Мальвина /ТИГИЕВА/
 2 GIVN Мальвина
 2 SURN ТИГИЕВА
 1 SEX F
-1 BIRT Y
+1 BIRT
+2 DATE 27 MAR 1989
 1 FAMS @F116@
 1 CHAN
-2 DATE 19 JUN 2026
-3 TIME 12:00:05
+2 DATE 2 JUL 2026
+3 TIME 21:41:22
 0 @F116@ FAM
 1 HUSB @I364@
 1 WIFE @I365@
@@ -4870,21 +4882,23 @@
 2 GIVN Валерия
 2 SURN КОЗАЕВА
 1 SEX F
-1 BIRT Y
+1 BIRT
+2 DATE 17 JUN 2009
 1 FAMC @F116@
 1 CHAN
-2 DATE 19 JUN 2026
-3 TIME 12:00:21
+2 DATE 2 JUL 2026
+3 TIME 21:41:00
 0 @I367@ INDI
 1 NAME Максимильян /КОЗАЕВ/
 2 GIVN Максимильян
 2 SURN КОЗАЕВ
 1 SEX M
-1 BIRT Y
+1 BIRT
+2 DATE 17 AUG 2013
 1 FAMC @F116@
 1 CHAN
-2 DATE 19 JUN 2026
-3 TIME 12:00:35
+2 DATE 2 JUL 2026
+3 TIME 21:40:37
 0 @I368@ INDI
 1 NAME /?/
 2 SURN ?
