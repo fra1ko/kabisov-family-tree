@@ -1,0 +1,1521 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Семейное древо Кабисовых</title>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    font-family:Inter,Arial,sans-serif;
+}
+
+body{
+    color:white;
+
+    background:
+        radial-gradient(circle at top left, rgba(96,165,250,.18), transparent 30%),
+        radial-gradient(circle at top right, rgba(251,146,60,.18), transparent 30%),
+        linear-gradient(180deg,#52525b 0%,#3f3f46 100%);
+}
+
+/* LEFT SEARCH */
+
+#searchPanel{
+    position:fixed;
+    top:16px;
+    left:16px;
+
+    z-index:999;
+
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.searchWrap{
+    display:flex;
+    gap:10px;
+}
+
+#searchInput{
+    width:290px;
+
+    padding:14px 16px;
+
+    border:none;
+    outline:none;
+
+    border-radius:18px;
+
+    background:rgba(39,39,42,.78);
+
+    backdrop-filter:blur(14px);
+
+    color:white;
+
+    font-size:15px;
+}
+
+#searchInput::placeholder{
+    color:#d4d4d8;
+}
+
+.searchBtn{
+    border:none;
+    cursor:pointer;
+
+    padding:14px 18px;
+
+    border-radius:18px;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-weight:700;
+}
+
+#searchNav{
+    display:none;
+    align-items:center;
+    gap:10px;
+}
+
+.navBtn{
+    width:36px;
+    height:36px;
+
+    border:none;
+    cursor:pointer;
+
+    border-radius:12px;
+
+    background:rgba(39,39,42,.78);
+
+    color:white;
+
+    font-size:18px;
+}
+
+#searchCount{
+    font-size:14px;
+    color:#f4f4f5;
+}
+
+/* CENTER HEADER */
+
+#headerCenter{
+    position:fixed;
+
+    top:16px;
+    left:50%;
+
+    transform:translateX(-50%);
+
+    z-index:999;
+
+    padding:18px 30px;
+
+    border-radius:24px;
+
+    background:rgba(39,39,42,.78);
+
+    backdrop-filter:blur(14px);
+
+    border:1px solid rgba(255,255,255,.06);
+
+    text-align:center;
+}
+
+#headerCenter h1{
+    font-size:30px;
+    font-weight:900;
+    letter-spacing:-1px;
+}
+
+#headerCenter p{
+    margin-top:6px;
+    color:#d4d4d8;
+}
+
+/* STATS */
+
+.stats{
+    margin-top:14px;
+
+    display:flex;
+    gap:12px;
+    justify-content:center;
+}
+
+.stat{
+    min-width:120px;
+
+    padding:12px 14px;
+
+    border-radius:18px;
+
+    background:rgba(255,255,255,.06);
+
+    text-align:center;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.statNum{
+    font-size:24px;
+    font-weight:900;
+}
+
+.statText{
+    margin-top:4px;
+    font-size:13px;
+    color:#d4d4d8;
+}
+
+/* EVENTS */
+
+#events{
+    position:fixed;
+
+    top:16px;
+    right:16px;
+
+    z-index:999;
+
+    width:280px;
+
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.eventCard{
+    padding:14px 16px;
+
+    border-radius:18px;
+
+    background:rgba(39,39,42,.78);
+
+    backdrop-filter:blur(14px);
+
+    cursor:pointer;
+
+    transition:.2s;
+}
+
+.eventCard:hover{
+    transform:translateY(-2px);
+}
+
+.eventTitle{
+    color:#fbbf24;
+    font-size:13px;
+}
+
+.eventName{
+    margin-top:4px;
+    font-weight:700;
+}
+
+/* TREE */
+
+#tree{
+    width:100vw;
+    height:100vh;
+    touch-action:none;
+}
+
+/* LINKS */
+
+.link{
+    fill:none;
+    stroke:#a1a1aa;
+    stroke-width:1.5;
+    opacity:.45;
+}
+
+.spouse-link{
+    stroke:#fb923c;
+    stroke-width:1.5;
+    opacity:.9;
+}
+
+.spouse-link.divorced{
+    stroke-dasharray:10 6;
+    opacity:.55;
+}
+
+/* CARDS */
+
+.node rect{
+    rx:24;
+
+    stroke-width:2.4;
+
+    filter:
+        drop-shadow(0 12px 26px rgba(0,0,0,.22));
+}
+
+/* ОСНОВНАЯ КАРТОЧКА МУЖЧИН */
+
+.male > rect:first-child{
+    fill:#64748b;
+    stroke:none;
+}
+
+.female > rect:first-child{
+    fill:#78716c;
+    stroke:none;
+}
+
+.unknown > rect:first-child{
+    fill:#52525b;
+    stroke:none;
+}
+
+/* TEXT */
+
+.name{
+    font-size:18px;
+    font-weight:800;
+    fill:white;
+}
+
+.date{
+    font-size:13px;
+    fill:#f4f4f5;
+}
+
+.sub{
+    font-size:11px;
+    fill:#e4e4e7;
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+    #headerCenter{
+        top:88px;
+        padding:14px 18px;
+        width:90%;
+    }
+
+    #headerCenter h1{
+        font-size:22px;
+    }
+
+    #searchInput{
+        width:180px;
+    }
+
+    #events{
+        width:220px;
+    }
+}
+
+@media(max-width:768px){
+
+    #searchPanel{
+        top:10px;
+        left:10px;
+        right:10px;
+    }
+
+    .searchWrap{
+        width:100%;
+    }
+
+    #searchInput{
+        width:100%;
+    }
+
+    #headerCenter{
+        top:86px;
+        bottom:auto;
+        width:92%;
+        padding:14px;
+    }
+
+    .stats{
+        flex-wrap:wrap;
+    }
+
+    #events{
+        top:auto;
+        bottom:12px;
+        right:12px;
+        width:180px;
+    }
+
+    .name{
+        font-size:11px;
+        font-weight:700;
+    }
+
+    .date{
+        font-size:9px;
+    }
+
+    .sub{
+        font-size:8px;
+    }
+}
+
+@media (max-width: 950px) and (orientation: landscape){
+
+    #headerCenter{
+        top:10px;
+        left:50%;
+        transform:translateX(-50%);
+
+        width:320px;
+        padding:12px 16px;
+
+        z-index:999;
+    }
+
+    #headerCenter h1{
+        font-size:20px;
+    }
+
+    #headerCenter p{
+        margin-top:2px;
+        font-size:12px;
+    }
+
+    .stats{
+        margin-top:8px;
+        gap:8px;
+    }
+
+    .stat{
+        min-width:90px;
+        padding:8px;
+    }
+
+    .statNum{
+        font-size:18px;
+    }
+
+    .statText{
+        font-size:11px;
+    }
+
+    #searchPanel{
+        top:10px;
+        left:10px;
+    }
+
+    #searchInput{
+        width:170px;
+    }
+
+    #events{
+        top:10px;
+        right:10px;
+        bottom:auto;
+        width:170px;
+    }
+
+    .stats{
+        display:none;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 1200px){
+
+    #headerCenter{
+
+        top:10px !important;
+        left:50% !important;
+
+        transform:translateX(-50%) !important;
+
+        width:260px !important;
+
+        padding:10px 16px !important;
+
+        margin:0 !important;
+    }
+
+    .stats{
+        display:none !important;
+    }
+
+    #headerCenter p{
+        display:none !important;
+    }
+
+    #headerCenter h1{
+        font-size:18px !important;
+    }
+
+    #searchInput{
+        width:140px !important;
+    }
+
+    #events{
+        top:10px !important;
+        bottom:auto !important;
+        width:140px !important;
+    }
+}
+
+</style>
+</head>
+<body>
+
+<div id="searchPanel">
+
+    <div class="searchWrap">
+
+        <input
+            id="searchInput"
+            type="text"
+            placeholder="Поиск..."
+        >
+
+        <button
+            class="searchBtn"
+            onclick="searchPerson()"
+        >
+            Найти
+        </button>
+
+    </div>
+
+    <div id="searchNav">
+
+        <button
+            class="navBtn"
+            onclick="prevSearch()"
+        >
+            ←
+        </button>
+
+        <div id="searchCount">1 / 1</div>
+
+        <button
+            class="navBtn"
+            onclick="nextSearch()"
+        >
+            →
+        </button>
+
+    </div>
+
+</div>
+
+<div id="headerCenter">
+
+    <h1>Семейное древо Кабисовых</h1>
+
+    <p>Родословная семьи</p>
+
+    <div class="stats">
+
+        <div class="stat">
+            <div class="statNum" id="membersCount">0</div>
+            <div class="statText">Человек</div>
+        </div>
+
+        <div class="stat">
+            <div class="statNum" id="familiesCount">0</div>
+            <div class="statText">Семей</div>
+        </div>
+
+    </div>
+
+</div>
+
+<div id="events"></div>
+
+<div id="tree"></div>
+
+<script>
+
+const width = window.innerWidth;
+const height = window.innerHeight;
+
+const isMobile = width < 768;
+
+let individuals = {};
+let families = {};
+
+let searchResults = [];
+let currentSearchIndex = 0;
+
+let spousePositions = {};
+
+const svg = d3.select('#tree')
+    .append('svg')
+    .attr('width', width)
+    .attr('height', height);
+
+const zoomLayer = svg.append('g');
+
+const zoom = d3.zoom()
+    .scaleExtent([0.15, 2.5])
+    .filter((event)=>{
+        return (
+            event.type === 'wheel' ||
+            event.type === 'mousedown' ||
+            event.type === 'touchstart' ||
+            event.type === 'touchmove'
+        );
+    })
+    .on('zoom', (event)=>{
+        zoomLayer.attr('transform', event.transform);
+    });
+
+svg.call(zoom);
+
+/* TREE */
+
+const treeLayout = d3.tree()
+    .nodeSize(
+        isMobile
+            ? [290, 150]
+            : [700, 280]
+    );
+
+/* PARSE */
+
+function parseGEDCOM(text){
+
+    individuals = {};
+    families = {};
+
+    const lines = text.split(/\r?\n/);
+
+    let current = null;
+    let currentType = null;
+
+    let birthMode = false;
+    let deathMode = false;
+
+    for(const line of lines){
+
+        const parts = line.trim().split(' ');
+
+        const level = parts[0];
+
+        if(level === '0'){
+
+            birthMode = false;
+            deathMode = false;
+
+            if(parts[1] && parts[1].startsWith('@')){
+
+                const id = parts[1];
+                const type = parts[2];
+
+                currentType = type;
+
+                if(type === 'INDI'){
+
+                    individuals[id] = {
+                        id,
+                        name:'Без имени',
+                        sex:'',
+                        fams:[],
+                        famc:null,
+                        spouses:[],
+                        children:[],
+                        birth:'',
+                        death:''
+                    };
+
+                    current = individuals[id];
+                }
+
+                if(type === 'FAM'){
+
+                    families[id] = {
+                        id,
+                        husband:null,
+                        wife:null,
+                        children:[],
+                        divorced:false
+                    };
+
+                    current = families[id];
+                }
+            }
+        }
+
+        if(!current) continue;
+
+        const tag = parts[1];
+
+        if(level === '1'){
+
+    if(tag !== 'BIRT'){
+        birthMode = false;
+    }
+
+    if(tag !== 'DEAT'){
+        deathMode = false;
+    }
+}
+
+        if(currentType === 'INDI'){
+
+            if(tag === 'NAME'){
+                current.name =
+                    parts
+                    .slice(2)
+                    .join(' ')
+                    .replaceAll('/','');
+            }
+
+            if(tag === 'SEX'){
+                current.sex = parts[2];
+            }
+
+            if(tag === 'FAMS'){
+                current.fams.push(parts[2]);
+            }
+
+            if(tag === 'FAMC'){
+                current.famc = parts[2];
+            }
+
+if(level === '1'){
+
+    birthMode = (tag === 'BIRT');
+    deathMode = (tag === 'DEAT');
+}
+
+            if(level === '2' && tag === 'DATE'){
+
+    const dateText =
+        parts.slice(2).join(' ').trim();
+
+    const validDate =
+        /^\d{1,2}\s+[A-Z]{3}\s+\d{4}$/.test(dateText) ||
+        /^\d{4}$/.test(dateText);
+
+    if(!validDate) continue;
+
+    if(birthMode && !current.birth){
+        current.birth = formatDate(dateText);
+    }
+
+    if(deathMode && !current.death){
+        current.death = formatDate(dateText);
+    }
+}
+        }
+
+        if(currentType === 'FAM'){
+
+            if(tag === 'HUSB'){
+                current.husband = parts[2];
+            }
+
+            if(tag === 'WIFE'){
+                current.wife = parts[2];
+            }
+
+            if(tag === 'CHIL'){
+                current.children.push(parts[2]);
+            }
+
+            if(tag === 'DIV'){
+                current.divorced = true;
+            }
+        }
+    }
+
+    for(const famId in families){
+
+        const fam = families[famId];
+
+        if(fam.husband && fam.wife){
+
+            individuals[fam.husband]
+                ?.spouses
+                .push({
+                    id:fam.wife,
+                    divorced:fam.divorced || false
+                });
+
+            individuals[fam.wife]
+                ?.spouses
+                .push({
+                    id:fam.husband,
+                    divorced:fam.divorced || false
+                });
+        }
+
+        for(const childId of fam.children){
+
+            if(fam.husband && individuals[fam.husband]){
+
+                individuals[fam.husband]
+                    .children
+                    .push(childId);
+            }
+
+            if(fam.wife && individuals[fam.wife]){
+
+                individuals[fam.wife]
+                    .children
+                    .push(childId);
+            }
+        }
+    }
+}
+
+function formatDate(str){
+
+    if(!str) return '';
+
+    const months = {
+        JAN:'янв',
+        FEB:'фев',
+        MAR:'мар',
+        APR:'апр',
+        MAY:'мая',
+        JUN:'июн',
+        JUL:'июл',
+        AUG:'авг',
+        SEP:'сен',
+        OCT:'окт',
+        NOV:'ноя',
+        DEC:'дек'
+    };
+
+    const p = str.split(' ');
+
+    if(p.length === 3){
+
+        return `${p[0]} ${months[p[1]] || p[1]} ${p[2]}`;
+    }
+
+    return str;
+}
+
+/* BUILD */
+
+function buildTree(rootId){
+
+    const visited = new Set();
+
+    function createNode(personId){
+
+        if(!individuals[personId]) return null;
+        if(visited.has(personId)) return null;
+
+        visited.add(personId);
+
+        const person = individuals[personId];
+
+        const node = {
+            id:person.id,
+            name:person.name,
+            sex:person.sex,
+            birth:person.birth,
+            death:person.death,
+            spouses:[],
+            children:[]
+        };
+
+        for(const spouseData of person.spouses){
+
+            const spouse =
+                individuals[spouseData.id];
+
+            if(spouse){
+
+                node.spouses.push({
+                    id: spouse.id,
+                    name: spouse.name || 'Без имени',
+                    sex: spouse.sex || '',
+                    birth: spouse.birth || '',
+                    death: spouse.death || '',
+                    divorced: spouseData.divorced || false
+                });
+            }
+        }
+
+        const uniqueChildren =
+            [...new Set(person.children)];
+
+        for(const childId of uniqueChildren){
+
+            const childNode =
+                createNode(childId);
+
+            if(childNode){
+                node.children.push(childNode);
+            }
+        }
+
+        return node;
+    }
+
+    return createNode(rootId);
+}
+
+/* RENDER */
+
+function renderTree(data){
+
+    zoomLayer.selectAll('*').remove();
+
+    spousePositions = {};
+
+    const root = d3.hierarchy(data);
+
+    treeLayout(root);
+
+    const nodesList = root.descendants();
+
+const minX = d3.min(nodesList, d => d.x);
+const maxX = d3.max(nodesList, d => d.x);
+const minY = d3.min(nodesList, d => d.y);
+const maxY = d3.max(nodesList, d => d.y);
+
+zoom.translateExtent([
+    [minX - 1500, minY - 600],
+    [maxX + 1500, maxY + 1000]
+]);
+
+    document.getElementById('membersCount')
+        .textContent =
+            Object.keys(individuals).length;
+
+    document.getElementById('familiesCount')
+        .textContent =
+            Object.keys(families).length;
+
+    zoomLayer.selectAll('.link')
+        .data(root.links())
+        .enter()
+        .append('path')
+        .attr('class','link')
+        .attr(
+            'd',
+            d3.linkVertical()
+                .x(d=>d.x)
+                .y(d=>d.y)
+        );
+
+    const nodes = zoomLayer
+        .selectAll('.node')
+        .data(root.descendants())
+        .enter()
+        .append('g')
+        .attr('class', d=>{
+
+            const sex =
+                individuals[d.data.id]?.sex;
+
+            const dead =
+                d.data.death ? ' deceased' : '';
+
+            if(sex === 'M') return 'node male' + dead;
+            if(sex === 'F') return 'node female' + dead;
+
+            return 'node unknown' + dead;
+        })
+        .attr(
+            'transform',
+            d=>`translate(${d.x},${d.y})`
+        );
+
+const cardWidth =
+    isMobile ? 150 : 270;
+
+const cardHeight =
+    isMobile ? 72 : 125;
+
+/* ОСНОВНАЯ КАРТОЧКА */
+
+nodes.append('rect')
+    .attr('x', -cardWidth / 2)
+    .attr('y', -cardHeight / 2)
+    .attr('width', cardWidth)
+    .attr('height', cardHeight);
+
+/* КРАСНАЯ ПОЛОСА СПРАВА ДЛЯ УМЕРШИХ */
+
+nodes.each(function(d){
+
+    if(!d.data.death) return;
+
+    const g = d3.select(this);
+
+    g.append('path')
+        .attr(
+            'd',
+            `
+            M ${cardWidth/2 - 40} ${-cardHeight/2}
+            L ${cardWidth/2} ${-cardHeight/2}
+            L ${cardWidth/2} ${-cardHeight/2 + 40}
+            Z
+            `
+        )
+        .attr('fill', '#111111');
+
+    g.append('line')
+        .attr('x1', cardWidth/2 - 36)
+        .attr('y1', -cardHeight/2 + 4)
+        .attr('x2', cardWidth/2 - 4)
+        .attr('y2', -cardHeight/2 + 36)
+        .attr('stroke', '#ffffff')
+        .attr('stroke-width', 3)
+        .attr('opacity', 0.9);
+});
+
+
+    nodes.append('text')
+        .attr('class','name')
+        .attr('text-anchor','middle')
+        .attr('dy',-28)
+        .text(d=>d.data.name);
+
+    nodes.append('text')
+        .attr('class','date')
+        .attr('text-anchor','middle')
+        .attr('dy',8)
+        .text(d=>{
+
+            const b = d.data.birth || '';
+            const de = d.data.death || '';
+
+            if(b && de){
+                return `${b} — ${de}`;
+            }
+
+            if(b){
+                return b;
+            }
+
+            return '';
+        });
+
+    nodes.append('text')
+        .attr('class','sub')
+        .attr('text-anchor','middle')
+        .attr('dy',34)
+        .text('Род Кабисовых');
+
+    /* SPOUSES */
+
+    nodes.each(function(d){
+
+        if(!d.data.spouses.length) return;
+
+        const spousesCount =
+            d.data.spouses.length;
+
+        d.data.spouses.forEach((spouse,index)=>{
+
+            let offsetX;
+            let offsetY;
+
+            if(spousesCount === 1){
+
+                offsetX =
+    isMobile ? 165 : 360;
+
+                offsetY = 0;
+            }
+
+            else{
+
+                offsetX =
+                    isMobile ? 175 : 390;
+
+                offsetY =
+    index % 2 === 0
+        ? -45
+        : 45;
+            }
+
+            const spouseGroup =
+                zoomLayer
+                .append('g')
+                .attr(
+                    'class',
+                    `
+                    ${
+                        spouse.sex === 'F'
+                            ? 'female'
+                            : spouse.sex === 'M'
+                                ? 'male'
+                                : 'unknown'
+                    }
+                    ${
+                        spouse.death
+                            ? 'deceased'
+                            : ''
+                    }
+                    `
+                )
+                .attr(
+                    'transform',
+                    `
+                    translate(
+                        ${d.x + offsetX},
+                        ${d.y + offsetY}
+                    )
+                    `
+                );
+
+spousePositions[spouse.id] = {
+    x: d.x + offsetX,
+    y: d.y + offsetY
+};
+
+spouseGroup
+    .append('rect')
+    .attr('x', -cardWidth / 2)
+    .attr('y', -cardHeight / 2)
+    .attr('width', cardWidth)
+    .attr('height', cardHeight);
+
+if(spouse.death){
+
+    spouseGroup
+        .append('path')
+        .attr(
+            'd',
+            `
+            M ${cardWidth/2 - 40} ${-cardHeight/2}
+            L ${cardWidth/2} ${-cardHeight/2}
+            L ${cardWidth/2} ${-cardHeight/2 + 40}
+            Z
+            `
+        )
+        .attr('fill', '#111111');
+
+    spouseGroup
+        .append('line')
+        .attr('x1', cardWidth/2 - 36)
+        .attr('y1', -cardHeight/2 + 4)
+        .attr('x2', cardWidth/2 - 4)
+        .attr('y2', -cardHeight/2 + 36)
+        .attr('stroke', '#ffffff')
+        .attr('stroke-width', 3)
+        .attr('opacity', 0.9);
+}
+
+            spouseGroup
+                .append('text')
+                .attr('class','name')
+                .attr('text-anchor','middle')
+                .attr('dy',-28)
+                .text(spouse.name);
+
+            let spouseDateText = '';
+
+            if(spouse.birth && spouse.death){
+
+                spouseDateText =
+                    `${spouse.birth} — ${spouse.death}`;
+            }
+
+            else if(spouse.birth){
+
+                spouseDateText =
+                    spouse.birth;
+            }
+
+            spouseGroup
+                .append('text')
+                .attr('class','date')
+                .attr('text-anchor','middle')
+                .attr('dy',8)
+                .text(spouseDateText);
+
+            spouseGroup
+                .append('text')
+                .attr('class','sub')
+                .attr('text-anchor','middle')
+                .attr('dy',34)
+                .text(
+
+                    spouse.divorced
+
+                        ? (
+                            spouse.sex === 'F'
+                                ? 'Бывшая супруга'
+                                : 'Бывший супруг'
+                        )
+
+                        : (
+                            spouse.sex === 'F'
+                                ? 'Супруга'
+                                : spouse.sex === 'M'
+                                    ? 'Супруг'
+                                    : ''
+                        )
+                );
+
+            zoomLayer
+                .append('line')
+                .attr(
+                    'class',
+                    spouse.divorced
+                        ? 'spouse-link divorced'
+                        : 'spouse-link'
+                )
+                .attr(
+                    'x1',
+                    d.x + cardWidth/2
+                )
+                .attr(
+                    'y1',
+                    d.y
+                )
+                .attr(
+                    'x2',
+                    d.x + offsetX - cardWidth/2
+                )
+                .attr(
+                    'y2',
+                    d.y + offsetY
+                );
+        });
+    });
+
+    const initial =
+        d3.zoomIdentity
+            .translate(
+                isMobile
+                    ? width / 2
+                    : width / 2,
+                isMobile
+                    ? 340
+                    : 160
+            )
+            .scale(isMobile ? 0.42 : 0.75);
+
+    svg.call(
+        zoom.transform,
+        initial
+    );
+}
+
+/* SEARCH */
+
+function searchPerson(){
+
+    const value =
+        document
+        .getElementById('searchInput')
+        .value
+        .trim()
+        .toLowerCase();
+
+    if(!value) return;
+
+    searchResults = [];
+
+    for(const id in individuals){
+
+        const person = individuals[id];
+
+        if(
+            person.name
+                .toLowerCase()
+                .includes(value)
+        ){
+            searchResults.push(id);
+        }
+    }
+
+    if(!searchResults.length){
+
+        alert('Ничего не найдено');
+
+        document
+            .getElementById('searchNav')
+            .style.display = 'none';
+
+        return;
+    }
+
+    currentSearchIndex = 0;
+
+    document
+        .getElementById('searchNav')
+        .style.display = 'flex';
+
+    focusSearchResult();
+}
+
+function focusSearchResult(){
+
+    const id =
+        searchResults[currentSearchIndex];
+
+    let xPos;
+    let yPos;
+
+    const node =
+        d3.selectAll('.node')
+        .filter(d => d?.data?.id === id);
+
+    if(!node.empty()){
+
+        const d = node.datum();
+
+        xPos = d.x;
+        yPos = d.y;
+    }
+
+    else if(spousePositions[id]){
+
+        xPos = spousePositions[id].x;
+        yPos = spousePositions[id].y;
+    }
+
+    else{
+        return;
+    }
+
+    const screenWidth =
+        window.innerWidth;
+
+    const screenHeight =
+        window.innerHeight;
+
+    const scale =
+        isMobile ? 1.15 : 1.1;
+
+    const x =
+        screenWidth / 2 -
+        (xPos * scale);
+
+    const y =
+        screenHeight * 0.60 -
+        (yPos * scale);
+
+    const transform =
+        d3.zoomIdentity
+            .translate(x, y)
+            .scale(scale);
+
+    svg.transition()
+        .duration(700)
+        .call(
+            zoom.transform,
+            transform
+        );
+
+    document
+        .getElementById('searchCount')
+        .textContent =
+            `${currentSearchIndex + 1} / ${searchResults.length}`;
+}
+
+function nextSearch(){
+
+    if(!searchResults.length) return;
+
+    currentSearchIndex++;
+
+    if(currentSearchIndex >= searchResults.length){
+        currentSearchIndex = 0;
+    }
+
+    focusSearchResult();
+}
+
+function prevSearch(){
+
+    if(!searchResults.length) return;
+
+    currentSearchIndex--;
+
+    if(currentSearchIndex < 0){
+        currentSearchIndex =
+            searchResults.length - 1;
+    }
+
+    focusSearchResult();
+}
+
+/* EVENTS */
+
+function createEvents(){
+
+    const container =
+        document.getElementById('events');
+
+    container.innerHTML = '';
+
+    const now = new Date();
+
+    const day = now.getDate();
+    const month = now.getMonth() + 1;
+
+    for(const id in individuals){
+
+        const person = individuals[id];
+
+        checkEvent(
+            person.birth,
+            !person.death,
+            '🎉 День рождения',
+            person.name,
+            id
+        );
+    }
+
+    function checkEvent(dateText,allow,title,name,id){
+
+        if(!dateText || !allow) return;
+
+        const match =
+            dateText.match(/^(\d{1,2})/);
+
+        if(!match) return;
+
+        const personDay =
+            parseInt(match[1]);
+
+        const monthMap = {
+            янв:1,
+            фев:2,
+            мар:3,
+            апр:4,
+            мая:5,
+            июн:6,
+            июл:7,
+            авг:8,
+            сен:9,
+            окт:10,
+            ноя:11,
+            дек:12
+        };
+
+        const foundMonth =
+            Object.keys(monthMap)
+            .find(m=>dateText.includes(m));
+
+        const personMonth =
+            monthMap[foundMonth];
+
+        if(
+            personDay === day &&
+            personMonth === month
+        ){
+
+            const card =
+                document.createElement('div');
+
+            card.className = 'eventCard';
+
+            card.innerHTML = `
+                <div class="eventTitle">${title}</div>
+                <div class="eventName">${name}</div>
+            `;
+
+            card.onclick = ()=>{
+
+                searchResults = [id];
+                currentSearchIndex = 0;
+
+                focusSearchResult();
+            };
+
+            container.appendChild(card);
+        }
+    }
+}
+
+/* ROOT */
+
+function findRootPerson(){
+
+    for(const id in individuals){
+
+        if(!individuals[id].famc){
+            return id;
+        }
+    }
+
+    return Object.keys(individuals)[0];
+}
+
+/* LOAD */
+
+async function loadDefaultGED(){
+
+    try{
+
+        const response =
+            await fetch('./family.ged');
+
+        if(!response.ok){
+            throw new Error();
+        }
+
+        const text =
+            await response.text();
+
+        parseGEDCOM(text);
+
+        const rootId =
+            findRootPerson();
+
+        const treeData =
+            buildTree(rootId);
+
+        renderTree(treeData);
+
+        createEvents();
+
+        if(window.innerWidth < 768){
+
+    setTimeout(()=>{
+
+        document
+            .querySelector('.stats')
+            ?.style.setProperty('display', 'none');
+
+    }, 5000);
+
+}
+
+    }catch(err){
+
+        console.error(err);
+
+        alert(
+            'Файл family.ged не найден'
+        );
+    }
+}
+
+loadDefaultGED();
+
+</script>
+
+</body>
+</html>
