@@ -248,13 +248,13 @@ body{
 .link{
     fill:none;
     stroke:#a1a1aa;
-    stroke-width:2.4;
+    stroke-width:1.5;
     opacity:.45;
 }
 
 .spouse-link{
     stroke:#fb923c;
-    stroke-width:2.5;
+    stroke-width:1.5;
     opacity:.9;
 }
 
@@ -367,15 +367,16 @@ body{
     }
 
     .name{
-        font-size:14px;
+        font-size:11px;
+        font-weight:700;
     }
 
     .date{
-        font-size:11px;
+        font-size:9px;
     }
 
     .sub{
-        font-size:10px;
+        font-size:8px;
     }
 }
 
@@ -593,7 +594,7 @@ svg.call(zoom);
 const treeLayout = d3.tree()
     .nodeSize(
         isMobile
-            ? [520, 240]
+            ? [290, 150]
             : [700, 280]
     );
 
@@ -945,10 +946,10 @@ zoom.translateExtent([
         );
 
 const cardWidth =
-    isMobile ? 220 : 270;
+    isMobile ? 150 : 270;
 
 const cardHeight =
-    isMobile ? 105 : 125;
+    isMobile ? 72 : 125;
 
 /* ОСНОВНАЯ КАРТОЧКА */
 
@@ -1038,7 +1039,7 @@ nodes.each(function(d){
             if(spousesCount === 1){
 
                 offsetX =
-                    isMobile ? 240 : 360;
+    isMobile ? 165 : 360;
 
                 offsetY = 0;
             }
@@ -1046,12 +1047,12 @@ nodes.each(function(d){
             else{
 
                 offsetX =
-                    isMobile ? 260 : 390;
+                    isMobile ? 175 : 390;
 
                 offsetY =
-                    index % 2 === 0
-                        ? -75
-                        : 75;
+    index % 2 === 0
+        ? -45
+        : 45;
             }
 
             const spouseGroup =
